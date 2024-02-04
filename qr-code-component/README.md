@@ -15,10 +15,10 @@ This is a solution to the [QR Code Componenet](https://www.frontendmentor.io/cha
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [QR Code Componenet](https://iamupo.github.io/Frontend-Mentor-challenge/qr-code-component/)
+You can view the live version of this project on GitHub Pages: [QR Code Componenet](https://iamupo.github.io/FrontendMentor-Solutions/qr-code-component/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/qr-code-component)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/qr-code-component)
 
 
 ## Connect with Me

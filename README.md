@@ -1,2 +1,2 @@
-# FrontendMentor-Solutions
- FrontendMentor-Solutions
+# Frontend-Mentor-challenge
+ Frontend-Mentor-challenge

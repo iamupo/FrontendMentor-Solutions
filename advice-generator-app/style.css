@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -130,7 +130,6 @@ img {
     }
 }
 
-
 .slide-in-up {
     opacity: 0;
     transform: translateY(-100%);
@@ -141,6 +140,9 @@ img {
     to {
         transform: translateY(0);
         opacity: 1;
-
     }
+}
+
+main h1 {
+    display: none;
 }

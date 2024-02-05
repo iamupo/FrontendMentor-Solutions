@@ -13,10 +13,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Blog preview](https://iamupo.github.io/Frontend-Mentor-challenge/blog-preview-card-main/)
+You can view the live version of this project on GitHub Pages: [Blog preview](https://iamupo.github.io/FrontendMentor-Solutions/blog-preview-card-main/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/blog-preview-card-main)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/blog-preview-card-main)
 
 ## Connect with Me
 

@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Advice-generator-app</title>         
+        <link rel="icon" type="img/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+        <link href="style.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:800&display=swap"> 
+    </head>     
+    <body> 
+        <main class="container"> 
+            <div class="advice-wrapper"> 
+                <article class="advice slide-in-up"> <span class="advice-count" id="advice-count">ADVICE #<span id="advice-number">117</span></span> 
+                    <p class="main-advice" id="advice">Loading...</p> 
+                    <img src="img/pattern-divider-desktop.svg" alt="parttern-divider" class="seperator"> 
+                    <button class="advice-btn" id="advice-btn" name="advice-button" type="submit"> 
+                        <img src="img/icon-dice.svg" alt="icon-dice" id="dice-icon"> 
+                    </button>                     
+                </article>                 
+            </div>             
+        </main>         
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const adviceCountElement = document.getElementById('advice-count');
+            const adviceNumberElement = document.getElementById('advice-number');
+            const adviceElement = document.getElementById('advice');
+            const diceButton = document.getElementById('advice-btn');
+            const diceIcon = document.getElementById('dice-icon');
+
+            function fetchAdvice() {
+                // Add the 'rotate' class to initiate rotation
+                diceIcon.classList.add('rotate');
+
+                fetch('https://api.adviceslip.com/advice')
+                    .then(response => response.json())
+                    .then(data => {
+                        const advice = data.slip.advice;
+                        adviceElement.textContent = `"${advice}"`;
+
+                        // Remove the 'rotate' class to stop rotation
+                        diceIcon.classList.remove('rotate');
+
+                        // Update the advice count
+                        updateAdviceCount(data.slip.id);
+                    })
+                    .catch(error => console.error('Error fetching advice:', error));
+            }
+
+            function updateAdviceCount(count) {
+                adviceNumberElement.textContent = count;
+            }
+
+            diceButton.addEventListener('click', function () {
+                fetchAdvice();
+            });
+
+            // Initial advice fetch when the page loads
+            fetchAdvice();
+        });
+    </script>         
+    </body>     
+</html>

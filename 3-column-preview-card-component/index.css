@@ -67,7 +67,6 @@ article {
         margin-right: auto;
         height: auto;
         display: block;
-        margin-bottom: 2rem;
     }
 }
 
@@ -78,6 +77,7 @@ article {
     font-size: 40px;
     color: var(--Very-light-gray-background-headings-buttons-);
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 p {

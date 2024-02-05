@@ -16,11 +16,11 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Advice generator app](https://iamupo.github.io/Frontend-Mentor-challenge/advice-generator-app/)
+You can view the live version of this project on GitHub Pages: [Advice generator app](https://iamupo.github.io/FrontendMentor-Solutions/advice-generator-app/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/advice-generator-app)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/advice-generator-app)
 
 ## Connect with Me
 

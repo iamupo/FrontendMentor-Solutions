@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <title>Article-preview-component-master</title>         
+        <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon"/> 
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:500,700&display=swap">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    </head>     
+    <body>
+        <main>
+            <article>
+                <img src="img/drawers.jpg" alt="Drawers" class="drawer">
+                <div data-empty-placeholder class="bg"></div>
+                <div>
+                    <div class="content-body">
+                        <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+                        <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I&rsquo;ve got some simple tips to help you make any room feel complete.</p>
+                    </div>
+                    <div class="wrapper">
+                        <div class="user-content">
+                            <div class="user-info">
+                                <img src="img/avatar-michelle.jpg" alt="Michelle Appleton" width="40">
+                                <div class="user-details">
+                                    <h2>Michelle Appleton</h2>
+                                    <span> 28 Jun 2020</span>
+                                </div>
+                            </div><a href="#" id="share"> <i class="fa-fw fa-share fas"></i> </a>
+                        </div>
+                        <div class="social-links">
+                            <span>Share </span>
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fa-facebook-square fa-lg fab"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-fw fa-lg fa-twitter fab"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-fw fa-lg fa-pinterest fab"></i></a>
+                                </li>
+                            </ul><a href="#"> <i class="fa-fw fa-share fas"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var shareIcon = document.getElementById('share');
+    var socialLinks = document.querySelector('.social-links');
+
+    if (shareIcon) {
+        shareIcon.addEventListener('click', function(event) {
+            event.stopPropagation(); // Prevent the click event from reaching the document level
+            socialLinks.style.display = (socialLinks.style.display === 'none' || socialLinks.style.display === '') ? 'flex' : 'none';
+        });
+
+        document.addEventListener('click', function(event) {
+            // Check if the clicked element is not a child of the social links or the share icon
+            if (!socialLinks.contains(event.target) && event.target !== shareIcon) {
+                socialLinks.style.display = 'none';
+            }
+        });
+    }
+});
+</script>
+    </body>     
+</html>

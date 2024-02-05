@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,6 +23,10 @@
 body {
     font-family: 'Manrope', sans-serif;
     background-color: var(--Dark-Blue);
+}
+
+main h1 {
+    display: none;
 }
 
 img {
@@ -141,8 +145,4 @@ img {
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-main h1 {
-    display: none;
 }

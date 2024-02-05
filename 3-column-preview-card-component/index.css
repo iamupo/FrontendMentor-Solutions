@@ -62,53 +62,49 @@ article {
     max-width: 305px;
     width: 100%;
 
-    picture {
-        margin-bottom: 2rem;
-
-        img {
-            max-width: 100%%;
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-            display: block;
-        }
-    }
-
-    .title {
-        font-family: 'Big Shoulders Display', cursive;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 40px;
-        color: var(--Very-light-gray-background-headings-buttons-);
+    img {
+        max-width: 100%%;
+        margin-right: auto;
+        height: auto;
+        display: block;
         margin-bottom: 2rem;
     }
+}
 
-    p {
-        font-family: 'Lexend Deca', sans-serif;
-        color: var(--Transparent-white-p);
-        font-size: 15px;
-        line-height: 1.5;
-        margin-bottom: 1.5rem;
-    }
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--Very-light-gray-background-headings-buttons-);
+    margin-bottom: 2rem;
+}
 
-    a {
-        max-width: 145px;
-        width: 100%;
-        height: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        overflow: hidden;
-        font-size: 15px;
-        font-family: 'Lexend Deca', sans-serif;
-        color: var(--Bright-orange);
-        text-transform: capitalize;
-        border-radius: 50px;
-        background-color: var(--Very-light-gray-background-headings-buttons-);
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-    }
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent-white-p);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    max-width: 145px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Bright-orange);
+    text-transform: capitalize;
+    border-radius: 50px;
+    background-color: var(--Very-light-gray-background-headings-buttons-);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 article:nth-child(1) {
@@ -155,4 +151,5 @@ article > a:hover {
     color: white;
 
     /* Change this line to make the text white on hover */
+}
 } 

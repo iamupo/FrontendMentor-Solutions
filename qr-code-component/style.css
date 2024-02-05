@@ -33,11 +33,11 @@ main {
     justify-content: center;
 }
 
+main h1 {
+    display: none;
+}
+
 .qr-card {
-    width: 320px;
-    height: 496px;
-    margin-left: 25px;
-    margin-right: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +46,12 @@ main {
     padding: 16px;
     border-radius: 20px;
     box-shadow: 0px 12px 164px rgba(0, 0, 0, 0.16);
+    margin: 25px;
+    max-width: 320px;
+    width: 100%;
+    max-height: 496px;
+    height: 100%;
+    overflow: hidden;
 }
 
 .qr-card img {
@@ -56,12 +62,12 @@ main {
     margin-bottom: 20px;
 }
 
-.qr-card h1 {
+.qr-card h2 {
     font-size: 20px;
     color: #192034;
     text-align: center;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.4;
     padding: 10px;
 }
 

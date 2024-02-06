@@ -213,3 +213,7 @@ button:hover {
         width: 1000px;
     }
 }
+
+.fa-angle-right {
+    color: var(--gradient-1);
+}

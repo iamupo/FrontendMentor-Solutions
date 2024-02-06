@@ -13,7 +13,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Base Apparel coming soon page](https://iamupo.github.io/FrontendMentor-SolutionsFrontendMentor-Solutions/base-apparel-coming-soon/)
+You can view the live version of this project on GitHub Pages: [Base Apparel coming soon page](https://iamupo.github.io/FrontendMentor-Solutions/base-apparel-coming-soon/)
 
 ## View Code Repo
 

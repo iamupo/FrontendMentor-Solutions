@@ -348,3 +348,7 @@ body:after {
         transform: translateX(0);
     }
 }
+
+label {
+    display: none;
+}

@@ -8,10 +8,10 @@ A responsive landing page for Easybank created with HTML, CSS, and JavaScript.
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Easybank Landing Page](https://iamupo.github.io/Frontend-Mentor-challenge/Easybank-landing-page/)
+You can view the live version of this project on GitHub Pages: [Easybank Landing Page](https://iamupo.github.io/FrontendMentor-Solutions/Easybank-landing-page/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/Easybank-landing-page/)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/Easybank-landing-page/)
 
 ## Connect with Me
 

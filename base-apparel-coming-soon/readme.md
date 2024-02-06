@@ -13,11 +13,11 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Base Apparel coming soon page](https://iamupo.github.io/Frontend-Mentor-challenge/base-apparel-coming-soon/)
+You can view the live version of this project on GitHub Pages: [Base Apparel coming soon page](https://iamupo.github.io/FrontendMentor-SolutionsFrontendMentor-Solutions/base-apparel-coming-soon/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/base-apparel-coming-soon)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/base-apparel-coming-soon)
 
 ## Connect with Me
 

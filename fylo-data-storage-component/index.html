@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> 
+        <title>Flyo Data Storage</title>         
+        <link rel="icon" type="img/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+        <link href="style.css" rel="stylesheet" type="text/css"/> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"/> 
+    </head>     
+    <body> 
+        <!-- Main content container with a data attribute for empty placeholder -->         
+        <main class="container"> 
+            <div class="wrapper"> 
+                <!-- File control section with a data attribute for collapsed state -->                 
+                <div class="fylo-files-control slide-in-left"> 
+                    <picture> 
+                        <!-- Logo image -->                         
+                        <img src="img/logo.svg" alt="logo"/> 
+                    </picture>                     
+                    <!-- Button wrapper for document, folder, and upload controls -->                     
+                    <div class="btn-wrapper"> 
+                        <button class="ctrlbtn" name="document-ctrl"> 
+                            <img src="img/icon-document.svg" alt="document"/> 
+                        </button>                         
+                        <button class="ctrlbtn" name="folder-ctrl"> 
+                            <img src="img/icon-folder.svg" alt="document"/> 
+                        </button>                         
+                        <button class="ctrlbtn" name="upload-ctrl"> 
+                            <img src="img/icon-upload.svg" alt="document"/> 
+                        </button>                         
+                    </div>                     
+                </div>                 
+                <!-- File storage information section -->                 
+                <div class="fylo-files-storage slide-in-right"> 
+                    <!-- Display used storage with dynamic value -->                     
+                    <h1 class="used-storage">You&rsquo;ve used <b id="usedStorage">815 GB</b> of your storage</h1> 
+                    <!-- Storage range input with a data attribute for collapsed state -->                     
+                    <div class="range"> 
+                        <input type="range" id="storageRange" name="storageRange" min="0" max="1000" step="1" value="815" class="storage-range"> 
+                        <!-- Range count display with minimum and maximum values -->                         
+                        <div class="range-count"> 
+                            <p>0 GB</p> 
+                            <p>1000 GB</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- Display remaining storage with dynamic value -->                     
+                    <p class="remaining-storage"><b id="remainingStorage">185</b> GB left</p> 
+                </div>                 
+            </div>             
+        </main>         
+        <!-- JavaScript script for updating storage information dynamically -->         
+        <script>
+        const storageRange = document.getElementById("storageRange");
+        const usedStorage = document.getElementById("usedStorage");
+        const remainingStorage = document.getElementById("remainingStorage");
+        const totalStorage = 1000;
+
+        let lastValue = parseInt(storageRange.value, 10);
+
+        storageRange.addEventListener("input", () => {
+            const selectedValue = parseInt(storageRange.value, 10);
+
+            if (selectedValue !== lastValue) {
+                usedStorage.innerHTML = `${selectedValue} GB`;
+                remainingStorage.textContent = totalStorage - selectedValue;
+                lastValue = selectedValue;
+            }
+        });
+    </script>         
+    </body>     
+</html>

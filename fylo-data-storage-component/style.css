@@ -1,0 +1,350 @@
+/* Reset styles for all elements and pseudo-elements */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Root variables for color values */
+:root {
+    /* Primary */
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+
+    /* Neutral */
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+/* Body styles */
+body {
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    transition: all 300ms ease-in-out;
+}
+
+body:before,
+body:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms ease-in-out;
+}
+
+body:before {
+    background-image: url('img/bg-mobile.png');
+    height: 100vh;
+    background-position: center center;
+}
+
+body:after {
+    background-image: url('img/bg-desktop.png');
+    height: 50vh;
+    bottom: 0;
+    display: none;
+}
+
+/* Main content container styles */
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    position: relative;
+    z-index: 5;
+}
+
+/* File control section styles */
+.fylo-files-control {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    gap: 1.6rem;
+    background-color: var(--Dark-Blue);
+    position: relative;
+    height: 202px;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    border-radius: 10px 100px 10px 10px;
+    padding: 2.5rem;
+}
+
+/* Button wrapper styles */
+.btn-wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 1rem;
+}
+
+/* Control button styles */
+.ctrlbtn {
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    width: 48px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease-in-out;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.ctrlbtn:hover {
+    background-color: var(--Pale-Blue);
+}
+
+.ctrlbtn:hover > img {
+    transform: scale(1.2);
+
+    /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease;
+
+    /* Add a smooth transition effect */
+}
+
+/* File storage section styles */
+.fylo-files-storage {
+    background-color: var(--Dark-Blue);
+    border-radius: 10px;
+    padding: 35.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 1rem;
+    position: relative;
+    width: 100%;
+    height: 153px;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0px 5px 32px #0c122c;
+}
+
+/* Used storage text styles */
+.used-storage {
+    color: var(--Pale-Blue);
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+/* Storage range input styles */
+.range {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.storage-range {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50px;
+    height: 20px;
+    width: 100%;
+    background: var(--Very-Dark-Blue);
+    overflow: hidden;
+    outline: none;
+
+    /* Remove the default focus outline */
+    transition: all 300ms ease-in-out;
+}
+
+/* Styles for the track of the storage range */
+.storage-range::-webkit-slider-runnable-track {
+    height: 14px;
+    color: #ff4d97;
+    border-radius: 50%;
+}
+
+/* Styles for the thumb of the storage range */
+.storage-range::-webkit-slider-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: -447px 0 50px 230px #ffa399, -110px 0 25px 105px #ff4d97;
+}
+
+/* Styles for the track and thumb in Mozilla Firefox */
+.storage-range::-moz-range-track {
+    height: 14px;
+    color: #ff4d97;
+    border-radius: 50%;
+}
+
+.storage-range::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: -447px 0 50px 230px #ffa399, -110px 0 25px 105px #ff4d97;
+}
+
+/* Range count display styles */
+.range-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--Pale-Blue);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+}
+
+/* Remaining storage text styles */
+.remaining-storage {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    align-self: center;
+    background-color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    color: var(--Grayish-Blue);
+    font-weight: 700;
+    width: 175px;
+    position: absolute;
+    top: 115px;
+    transition: all 300ms ease-in-out;
+}
+
+/* Remaining storage value styles */
+.remaining-storage > b {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--Very-Dark-Blue);
+    transition: all 300ms ease-in-out;
+}
+
+/* Wrapper styles */
+.wrapper {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    transition: all 300ms ease-in-out;
+}
+
+/* Pseudo-element before the remaining storage for the arrow effect */
+.remaining-storage:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 42px;
+    width: 0;
+    height: 0;
+    border-top-color: #ffffff;
+    display: none;
+    transition: all 300ms ease-in-out;
+    border-right: 43px solid #ffffff;
+    border-bottom: 53px solid rgba(255, 255, 255, 0);
+    border-left-style: none;
+    border-left-color: rgba(255, 255, 255, 0);
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body:after {
+        display: block;
+    }
+
+    body:before {
+        display: none;
+    }
+
+    .wrapper {
+        flex-direction: row;
+        row-gap: -1px;
+        gap: 32px;
+    }
+
+    .fylo-files-control {
+        width: 38%;
+    }
+
+    .fylo-files-storage {
+        width: 60%;
+    }
+
+    .remaining-storage {
+        right: 40px;
+        top: -50px;
+    }
+
+    .used-storage {
+        text-align: left;
+    }
+
+    .remaining-storage:before {
+        display: block;
+    }
+}
+
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 1s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

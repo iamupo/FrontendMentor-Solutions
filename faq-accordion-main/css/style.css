@@ -1,0 +1,186 @@
+/* General CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Variables */
+:root {
+    /* color */
+    --White: #fff;
+    --Lightpink: #f9f0ff;
+    --Grayishpurple: #8c6991;
+    --Darkpurple: #2f1533;
+
+    /* fonts */
+    --paragraph-fonts-size: 16px;
+
+    /* responsiveness */
+    --Mobile: 375px;
+    --Desktop: 1440px;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-color: var(--Lightpink);
+}
+
+/* FAQ Container Styles */
+.faq-container {
+    background-color: var(--White);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 45%;
+    box-shadow: 0px 10px 50px rgba(48, 21, 52, 0.2);
+}
+
+/* FAQ Heading Styles */
+.faq-container h1 {
+    font-weight: 700;
+    color: var(--Darkpurple);
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+/* Background Image Styles */
+.desktop-backgound-img,
+.mobile-backgound-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+    background-size: contain;
+}
+
+.desktop-backgound-img {
+    background-image: url('../imgs/background-pattern-desktop.svg');
+    display: block;
+}
+
+.mobile-backgound-img {
+    background-image: url('../imgs/background-pattern-mobile.svg');
+    display: none;
+}
+
+/* FAQ Header Styles */
+.faq-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Definition List Styles */
+dl {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Definition Term Styles */
+dt {
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--Darkpurple);
+    transition: all 0.3s ease-in-out;
+    gap: 2rem;
+    line-height: 1.5;
+}
+
+dt:hover,
+dt:focus {
+    color: #ad28eb;
+    outline: none;
+}
+
+dt.active {
+    color: var(--Darkpurple);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+dt .icon-plus {
+    display: inline;
+}
+
+dt .icon-minus {
+    display: none;
+}
+
+dt.active .icon-plus {
+    display: none;
+}
+
+dt.active .icon-minus {
+    display: inline;
+}
+
+/* Definition Description Styles */
+dd {
+    background-color: #fff;
+    color: var(--Grayishpurple);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+/* Definition List Wrapper Styles */
+.dt-dl-wrapper {
+    border-top: 1px solid #f9f0ff;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+/* Media Query for Tablet Devices */
+@media (max-width: 780px) {
+    .desktop-backgound-img {
+        display: none;
+    }
+
+    .mobile-backgound-img {
+        display: block;
+    }
+
+    .faq-container {
+        width: 80%;
+        padding: 1.5rem;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 375px) {
+    /* Hide desktop background, show mobile background */
+    .desktop-backgound-img {
+        display: none;
+    }
+
+    .mobile-backgound-img {
+        display: block;
+    }
+
+    /* Adjust FAQ container styles for smaller screens */
+    .faq-container {
+        top: 40%;
+        width: 90%;
+        /* padding: 1.5rem; */
+    }
+}

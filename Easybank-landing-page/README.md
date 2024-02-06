@@ -1,4 +1,4 @@
-# Easybank Landing Page
+# Frontend Mentor-Easybank Landing Page Solution
 
 A responsive landing page for Easybank created with HTML, CSS, and JavaScript.
 

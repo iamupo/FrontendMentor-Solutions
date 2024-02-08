@@ -14,11 +14,11 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Social Links](https://iamupo.github.io/Frontend-Mentor-challenge/social-links/)
+You can view the live version of this project on GitHub Pages: [Social Links](https://iamupo.github.io/FrontendMentor-Solutions/social-links/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/edit/main/social-links/)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/edit/main/social-links/)
 
 ## Connect with Me
 

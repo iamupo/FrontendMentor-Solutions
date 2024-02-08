@@ -13,10 +13,10 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Newsletter sign-up form with success message](https://iamupo.github.io/Frontend-Mentor-challenge/newsletter-sign-up-with-success-message-main/)
+You can view the live version of this project on GitHub Pages: [Newsletter sign-up form with success message](https://iamupo.github.io/FrontendMentor-Solutions/newsletter-sign-up-with-success-message-main/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/newsletter-sign-up-with-success-message-main)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/newsletter-sign-up-with-success-message-main)
 
 ## Connect with Me
 

@@ -14,11 +14,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Results-summary-component](https://iamupo.github.io/Frontend-Mentor-challenge/results-summary-component/)
+You can view the live version of this project on GitHub Pages: [Results-summary-component](https://iamupo.github.io/FrontendMentor-Solutions/results-summary-component/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/blob/main/results-summary-component)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/blob/main/results-summary-component)
 
 ## Connect with Me
 

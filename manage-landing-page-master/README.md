@@ -16,10 +16,10 @@ This is a solution to the [Manage landing page](https://www.frontendmentor.io/ch
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Manage landing page](https://iamupo.github.io/Frontend-Mentor-challenge/manage-landing-page-master/)
+You can view the live version of this project on GitHub Pages: [Manage landing page](https://iamupo.github.io/FrontendMentor-Solutions/manage-landing-page-master/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/manage-landing-page-master)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/manage-landing-page-master)
 
 
 ## Connect with Me

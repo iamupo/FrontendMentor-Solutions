@@ -14,11 +14,11 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Interactive rating component](https://iamupo.github.io/Frontend-Mentor-challenge/interactive-rating-component/)
+You can view the live version of this project on GitHub Pages: [Interactive rating component](https://iamupo.github.io/FrontendMentor-Solutions/interactive-rating-component/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/edit/main/interactive-rating-component)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/edit/main/interactive-rating-component)
 
 ## Connect with Me
 

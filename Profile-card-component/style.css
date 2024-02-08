@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ main {
 }
 
 main:before,
-main:after {
+main:after {
     content: "";
     width: 50%;
     height: 100vh;
@@ -191,7 +191,7 @@ main:after {
 
 .name-age span {
     color: var(--Dark-cyan);
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .slide-in-up {

@@ -14,11 +14,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Profile-card-componentp](https://iamupo.github.io/Frontend-Mentor-challenge/Profile-card-component/)
+You can view the live version of this project on GitHub Pages: [Profile-card-componentp](https://iamupo.github.io/FrontendMentor-Solutions/Profile-card-component/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/blob/main/Profile-card-component)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/blob/main/Profile-card-component)
 
 ## Connect with Me
 

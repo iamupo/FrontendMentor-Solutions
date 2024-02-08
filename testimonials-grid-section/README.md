@@ -15,11 +15,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Order-summary-card](https://iamupo.github.io/Frontend-Mentor-challenge/testimonials-grid-section/)
+You can view the live version of this project on GitHub Pages: [Order-summary-card](https://iamupo.github.io/FrontendMentor-Solutions/testimonials-grid-section/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/testimonials-grid-section)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/testimonials-grid-section)
 
 ## Connect with Me
 

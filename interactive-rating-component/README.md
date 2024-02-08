@@ -14,7 +14,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Interactive rating component](https://iamupo.github.io/FrontendMentor-Solutions/interactive-rating-component/)
+You can view the live version of this project on GitHub Pages: [Interactive rating component](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/interactive-rating-component))
 
 ## View Code Repo
 

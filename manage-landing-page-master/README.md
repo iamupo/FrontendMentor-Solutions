@@ -1,7 +1,4 @@
-# manage-landing-page-master
- manage-landing-page-master
-
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - manage-landing-page-master
 
 This is a solution to the [Manage landing page](https://www.frontendmentor.io/FrontendMentor-Solution/manage-landing-page-SLXqC6P5/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 

@@ -14,11 +14,11 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Product-preview-card-component](https://iamupo.github.io/Frontend-Mentor-challenge/product-preview-card-component)
+You can view the live version of this project on GitHub Pages: [Product-preview-card-component](https://iamupo.github.io/FrontendMentor-Solutions/product-preview-card-component)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/product-preview-card-component)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/product-preview-card-component)
 
 ## Connect with Me
 

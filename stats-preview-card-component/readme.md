@@ -13,10 +13,10 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Interactive-card-details-form](https://iamupo.github.io/Frontend-Mentor-challenge/stats-preview-card-component/)
+You can view the live version of this project on GitHub Pages: [Interactive-card-details-form](https://iamupo.github.io/FrontendMentor-Solutions/stats-preview-card-component/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/stats-preview-card-component)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/stats-preview-card-component)
 
 ## Connect with Me
 

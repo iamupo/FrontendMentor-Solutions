@@ -14,11 +14,11 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Tip calculator app](https://iamupo.github.io/Frontend-Mentor-challenge/tip-calculator-app-main/)
+You can view the live version of this project on GitHub Pages: [Tip calculator app](https://iamupo.github.io/FrontendMentor-Solutions//tip-calculator-app-main/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/tip-calculator-app-main/)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions//tree/main/tip-calculator-app-main/)
 
 ## Connect with Me
 

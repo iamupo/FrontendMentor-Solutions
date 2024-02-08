@@ -3,7 +3,7 @@
 
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Manage landing page](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Manage landing page](https://www.frontendmentor.io/FrontendMentor-Solution/manage-landing-page-SLXqC6P5/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Built with
 

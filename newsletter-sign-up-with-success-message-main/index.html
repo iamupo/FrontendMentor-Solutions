@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="newsletter-sign-up-with-success-message-main" content=""> 
+        <meta name="Promise Uzor" content=""> 
+        <title>newsletter-sign-up-with-success</title>
+        <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon"/>
+        <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon"/>
+        <script src="https://cdn.tailwindcss.com/"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    </head>     
+    <body class="font-sans" style="font-family: 'Roboto', sans-serif;">
+        <div class="relative lg:bg-gray-800 lg:flex lg:h-screen lg:items-center lg:justify-center lg:justify-items-center lg:w-screen">
+            <div class="absolute bg-gray-50 flex flex-col h-auto justify-between w-full lg:bg-gray-50 lg:flex-row-reverse lg:h-auto lg:max-w-4xl lg:p-6 lg:rounded-3xl lg:shadow-xl">
+                <div class="w-full lg:w-5/12">
+                    <img src="img/illustration-sign-up-mobile.svg" alt="signup-image" class="w-full lg:hidden">
+                    <img src="img/illustration-sign-up-desktop.svg" alt="signup-image" class="h-full hidden object-cover w-full lg:block lg:rounded-2xl">
+                </div>
+                <div class="flex flex-col gap-6 items-stretch justify-center justify-items-center justify-self-center place-content-center place-items-center px-5 py-10 lg:bg-gray-50 lg:gap-0 lg:h-auto lg:pl-10 lg:pr-16 lg:w-7/12">
+                    <h1 class="font-bold text-4xl text-gray-800 lg:mb-7 lg:text-5xl">Stay updated!</h1>
+                    <p class="font-medium leading-7 text-gray-800 text-lg lg:mb-6">Join 60,000+ product managers receiving monthly updates on:</p>
+                    <div class="flex flex-col gap-4 mb-4 lg:gap-2 lg:mb-7">
+                        <ul class="inline-block">
+                            <li class="content-center flex font-medium gap-4 items-start justify-items-start justify-self-start justify-start place-content-center place-items-start text-gray-800">
+                                <img src="img/icon-list.svg">Product discovery and building what matters
+                            </li>
+                        </ul>
+                        <ul class="inline-block">
+                            <li class="content-center flex font-medium gap-4 items-start justify-items-start justify-self-start justify-start place-content-center place-items-start text-gray-800">
+                                <img src="img/icon-list.svg">Measuring to ensure updates are a success
+                            </li>
+                        </ul>
+                        <ul class="inline-block">
+                            <li class="content-center flex font-medium gap-4 items-start justify-items-start justify-self-start justify-start place-content-center place-items-start text-gray-800">
+                                <img src="img/icon-list.svg">And much more!
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="flex flex-col gap-2 items-stretch justify-center">
+                        <div class="flex justify-between">
+                            <label class="font-bold text-gray-800 text-sm">Email address</label>
+                            <label class="font-bold hidden text-sm text-yellow-600">Valid email required</label>
+                        </div>
+                        <input type="email" name="email" placeholder="email@company.com" required="true" class="bg-transparent border border-gray-800 border-opacity-25 border-solid cursor-pointer duration-300 ease-in-out focus:border-gray-800 focus:rounded-lg mb-5 outline-none p-4 rounded-lg transition-all">
+                        <button class="bg-gray-800 duration-300 ease-in-out hover:bg-yellow-700 p-4 rounded-lg text-white transition-all">Subscribe to monthly newsletter</button>
+                    </form>
+                    <div class="attribution"> 
+                        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-blue-700">Frontend Mentor</a>. 
+                        Coded by <a href="https://www.linkedin.com/in/iamupo/" target="_blank" class="text-blue-800">Promise Uzor</a>.
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bg-white flex-col h-screen hidden justify-between p-8 w-screen lg:gap-8 lg:h-auto lg:justify-start lg:max-w-lg lg:p-16 lg:rounded-3xl lg:shadow-2xl">
+                <div class="flex flex-col gap-8 items-start justify-center justify-items-center justify-self-center mt-28 lg:mt-0">
+                    <img src="img/icon-success.svg">
+                    <h1 class="font-bold text-5xl text-gray-800">Thanks for subscribing!</h1>
+                    <p class="font-medium text-gray-800 text-lg">A confirmation email has been sent to <b>ash@loremcompany.com</b>. Please open it and click the button inside to confirm your subscription.</p>
+                </div>
+                <button class="bg-gray-800 duration-300 ease-in-out font-semibold hover:bg-yellow-600 p-4 rounded-lg text-white transition-all">Dismiss message</button>
+            </div>
+        </div>
+    </body>     
+</html>

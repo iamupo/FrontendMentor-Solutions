@@ -14,10 +14,10 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Intro Sction](https://iamupo.github.io/Frontend-Mentor-challenge/Intro-section/)
+You can view the live version of this project on GitHub Pages: [Intro Sction](https://iamupo.github.io/FrontendMentor-Solutions/Intro-section/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/Intro-section)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/Intro-section)
 
 ## Connect with Me
 

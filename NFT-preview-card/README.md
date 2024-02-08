@@ -14,11 +14,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [NFT-preview-card](https://iamupo.github.io/Frontend-Mentor-challenge/NFT-preview-card/)
+You can view the live version of this project on GitHub Pages: [NFT-preview-card](https://iamupo.github.io/FrontendMentor-Solutions/NFT-preview-card/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/edit/main/NFT-preview-card)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/edit/main/NFT-preview-card)
 
 ## Connect with Me
 

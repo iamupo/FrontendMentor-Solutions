@@ -14,11 +14,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Recipe page](https://iamupo.github.io/Frontend-Mentor-challenge/reciep-page/)
+You can view the live version of this project on GitHub Pages: [Recipe page](https://iamupo.github.io/FrontendMentor-Solutions/reciep-page/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/tree/main/reciep-page)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/reciep-page)
 
 ## Connect with Me
 

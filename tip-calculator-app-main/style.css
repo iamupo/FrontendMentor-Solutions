@@ -1,0 +1,403 @@
+/* Reset styles for all elements and pseudo-elements */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Define color variables in :root for easy customization */
+:root {
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/* Body styles */
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: var(--Light-grayish-cyan);
+}
+
+/* Image styles */
+img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+}
+
+label {
+    color: var(--Dark-grayish-cyan);
+}
+
+label > span {
+    color: #c1897e;
+    font-size: 12px;
+    letter-spacing: -0.8px;
+    display: none;
+}
+
+Userand my css *,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Define color variables in :root for easy customization */
+:root {
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: var(--Light-grayish-cyan);
+}
+
+img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    transition: all 300ms ease-in-out;
+}
+
+label {
+    color: var(--Dark-grayish-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+input {
+    background-color: var(--Very-light-grayish-cyan);
+    outline: none;
+    border-style: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Very-dark-cyan);
+    border-radius: 5px;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    transition: all 300ms ease-in-out;
+    padding-right: 25px;
+}
+
+input:hover,
+input:active,
+input:focus {
+    outline: 1px solid #cccccc;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(117, 117, 117, 0.36);
+}
+
+/* Main container styles */
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 150px;
+    padding-bottom: 238px;
+    transition: all 300ms ease-in-out;
+}
+
+/* Calculator wrapper styles */
+.calculator-wrapper {
+    width: 924px;
+    height: 480px;
+    background-color: var(--White);
+    border-radius: 25px;
+    box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.09);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+/* Input and Output section styles */
+.input-group {
+    position: relative;
+}
+
+.input,
+.output {
+    width: 48.4%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+/* Input section styles */
+.input {
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Output section styles */
+.output {
+    background-color: var(--Very-dark-cyan);
+    border-radius: 15px;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 30px;
+}
+
+/* Form styles */
+.form-group-input {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for bill input, number input, and tip select */
+.bill-input,
+.number-input,
+.tip-select {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+/* Icon styles */
+.icon {
+    position: absolute;
+    left: 20px;
+    width: 12px;
+    top: 16px;
+}
+
+/* Styles for tip selection buttons */
+.select-btn-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+/* Styles for percentage buttons */
+.percent-btn {
+    outline: none;
+    border-style: none;
+    background-color: var(--Very-dark-cyan);
+    font-size: 24px;
+    color: var(--White);
+    width: 115px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    transition: all 300ms ease-in-out;
+}
+
+/* Hover and focus styles for percentage buttons */
+.percent-btn:hover {
+    background-color: var(--Light-grayish-cyan);
+    color: var(--Very-dark-cyan);
+}
+
+.active-tip {
+    background-color: #26c2ad;
+    color: var(--Very-dark-cyan);
+}
+
+/* Styles for custom input */
+.custom-input {
+    outline: none;
+    border-style: none;
+    background-color: var(--Very-light-grayish-cyan);
+    font-size: 24px;
+    color: var(--Dark-grayish-cyan);
+    width: 110px;
+    height: 50px;
+    text-align: right;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    transition: all 300ms ease-in-out;
+    padding-right: 13px;
+}
+
+.custom-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-group span {
+    color: #c1897e;
+    font-size: 12px;
+    letter-spacing: -0.8px;
+    text-align: center;
+    display: none;
+}
+
+/* Styles for tip amount and total amount sections */
+.tip-amount,
+.total-amount {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* Styles for tip and total amount labels */
+.tip-amount-label,
+.total-amount-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    gap: 2px;
+}
+
+/* Styles for tip and total amount labels text */
+.tip-amount-label p,
+.total-amount-label p {
+    color: var(--Very-light-grayish-cyan);
+}
+
+/* Styles for tip and total amount labels span */
+.tip-amount-label span,
+.total-amount-label span {
+    color: var(--Grayish-cyan);
+}
+
+/* Styles for tip and total amount results */
+.tip-amount-result,
+.total-amount-result {
+    color: #21c3ac;
+    font-size: 46px;
+    overflow: hidden;
+}
+
+/* Styles for reset button */
+.reset-btn {
+    margin-top: auto;
+    background-color: var(--Dark-grayish-cyan);
+    padding: 5px;
+    border-style: none;
+    outline: none;
+    color: var(--Very-dark-cyan);
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+/* Hover styles for reset button */
+.reset-btn:hover {
+    background-color: var(--Light-grayish-cyan);
+    color: var(--Very-dark-cyan);
+}
+
+.reset-btn:focus {
+    background-color: #21c3ac;
+}
+
+/* Further responsive design styles for even smaller screens */
+@media (max-width:979px) {
+    main {
+        padding-left: 5px;
+        padding-right: 5px;
+        gap: 50px;
+    }
+
+    .calculator-wrapper {
+        flex-direction: column;
+        height: auto;
+        width: 480px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .input,
+    .output {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:529px) {
+    .calculator-wrapper {
+        width: auto;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .input {
+        padding: 10px;
+    }
+}
+
+
+
+
+
+

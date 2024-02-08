@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Tip-calculator-app-main</title>
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png" type="image/x-icon"/>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap">
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <!-- Main container for the entire content -->
+        <div class="container">
+            <main>
+                <!-- Logo section -->
+                <picture>
+                    <img src="img/logo.svg" alt="logo">
+                </picture>
+                <!-- Calculator section -->
+                <div class="calculator-wrapper">
+                    <!-- Input section with bill, tip, and number of people -->
+                    <div class="input">
+                        <form class="form-group-input">
+                            <!-- Bill input field -->
+                            <div class="bill-input">
+                                <label>
+                                    Bill<span id="bill-error-msg">Only non-zero numerical values.</span>
+                                </label>
+                                <div class="input-group">
+                                    <input id="bill-input" name="bill-input" value="142.55">
+                                    <img src="img/icon-dollar.svg" alt="icon dollar" class="icon">
+                                </div>
+                            </div>
+                            <!-- Tip selection buttons -->
+                            <div class="tip-select">
+                                <label>Select Tip %</label>
+                                <div class="select-btn-wrapper">
+                                    <button class="percent-btn" id="five" type="button" name="perscent buttom">5%</button>
+                                    <button class="percent-btn" id="ten" type="button" name="perscent buttom">10%</button>
+                                    <button class="active-tip percent-btn" id="fifteen" type="button" name="perscent buttom">15%</button>
+                                    <button class="percent-btn" id="twenty-five" type="button" name="perscent buttom">25%</button>
+                                    <button class="percent-btn" id="fifty" type="button" name="perscent buttom">50%</button>
+                                    <div class="custom-group">
+                                        <span id="custom-error-msg">numericcal values</span>
+                                        <input id="custom-tab" class="custom-input" placeholder="Custom" type="text" name="custom-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Number of people input field -->
+                            <div class="number-input">
+                                <label>
+                                    Number of People<span id="number-error-msg">Can&apos;t be zero</span>
+                                </label>
+                                <div class="input-group">
+                                    <input id="number-input" value="5" name="number-input">
+                                    <img src="img/icon-person.svg" alt="icon-person" class="icon">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Output section with tip amount, total amount, and reset button -->
+                    <div class="output">
+                        <div class="tip-amount">
+                            <!-- Tip amount per person -->
+                            <div class="tip-amount-label">
+                                <p>Tip Amount</p>
+                                <span>/ person</span>
+                            </div>
+                            <div class="tip-amount-result">
+                                <output>$4.27</output>
+                            </div>
+                        </div>
+                        <!-- Total amount per person -->
+                        <div class="total-amount">
+                            <div class="total-amount-label">
+                                <p>Total</p>
+                                <span>/ person</span>
+                            </div>
+                            <div class="total-amount-result">
+                                <output>$32.79</output>
+                            </div>
+                        </div>
+                        <!-- Reset button to clear input values -->
+                        <button class="reset-btn" id="reset">RESET</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

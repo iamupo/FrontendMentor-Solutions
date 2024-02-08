@@ -12,11 +12,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Order-summary-card](https://iamupo.github.io/Frontend-Mentor-challenge/Order-summary-card/)
+You can view the live version of this project on GitHub Pages: [Order-summary-card](https://iamupo.github.io/FrontendMentor-Solutions/Order-summary-card/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/Frontend-Mentor-challenge/edit/main/Order-summary-card/)
+[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/edit/main/Order-summary-card/)
 
 ## Connect with Me
 

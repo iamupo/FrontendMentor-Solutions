@@ -1,7 +1,7 @@
 /* Reset and Box Sizing */
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,6 +26,10 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--Very-dark-blue-mainBG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Main Styles */
@@ -38,13 +42,6 @@ main {
 }
 
 /* Container Styles */
-.container {
-    max-width: 1440px;
-max-height:100vh;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* Card Wrapper Styles */
 .card-wrapper {
     max-width: 100%;
@@ -116,7 +113,7 @@ img {
 }
 
 /* NFT Body Link Styles */
-.nft-body h1 > a{
+.nft-body h1 > a {
     font-size: 22px;
     color: var(--White);
     font-family: 'Outfit', sans-serif;

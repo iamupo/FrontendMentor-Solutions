@@ -8,7 +8,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Sunnyside-agency-landing-pagE](https://iamupo.github.io/Frontend-Mentor-challenge/Sunnyside-agency-landing-page/)
+You can view the live version of this project on GitHub Pages: [Sunnyside-agency-landing-pagE](https://iamupo.github.io/FrontendMentor-Solutions/Sunnyside-agency-landing-page/)
 
 ## View Code Repo
 [Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/Sunnyside-agency-landing-page/)

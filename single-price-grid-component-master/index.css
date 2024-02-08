@@ -1,0 +1,171 @@
+/* General CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --Light: #e5eff5;
+    --Grayish: hsl(218, 22%, 67%);
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright: hsl(71, 73%, 54%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow-y: auto;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Light);
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin: 1.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.14);
+    max-width: 635px;
+    width: 100%;
+}
+
+.main-content {
+    padding: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-content > h1 {
+    font-size: 1.2rem;
+    color: var(--Grayish);
+}
+
+.main-content > span {
+    font-size: 16px;
+    color: var(--Bright);
+    font-weight: 600;
+}
+
+.main-content > p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grayish);
+    line-height: 1.8;
+}
+
+.detailed-content {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+.price-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grayish);
+    padding: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.price-content > h2 {
+    font-size: 20px;
+    color: var(--Light);
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f7ffff;
+}
+
+.per-value {
+    color: #70dfdf;
+}
+
+.price-content > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.price-content > p {
+    color: var(--Light);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.price-content > a {
+    background-color: var(--Bright);
+    color: var(--Light);
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 61px 70px rgba(0, 0, 0, 0.22);
+}
+
+.why-content {
+    background-color: var(--Cyan);
+    padding: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.why-content > h3 {
+    font-size: 20px;
+    color: #f7ffff;
+    margin-bottom: 1.5rem;
+}
+
+.why-content > p {
+    font-size: 16px;
+    color: var(--Light);
+    line-height: 1.5;
+}
+
+@media (min-width:705px) {
+    .detailed-content {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 2rem;
+    }
+
+    .main-content > h1 {
+        font-size: 1.36rem;
+    }
+
+    .price-content,
+    .why-content {
+        max-width: 50%;
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <title>Frontend Mentor | Sunnyside agency landing page</title>
+        <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon"/>
+        <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon"/>
+        <script src="https://cdn.tailwindcss.com/"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:600&display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces:700,900&display=swap"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="bg-indigo-300 fixed w-screen z-10">
+            <nav class="flex flex-wrap items-center pl-5 pr-6 py-8"><a href="#" class="text-blue-600 text-xl font-medium uppercase hover:text-blue-800 mr-auto"><img src="img/logo.svg" width="124" height="24" alt="Logo"/></a>
+                <div class="absolute arrow-container bg-gray-50 flex-col gap-5 hidden items-center justify-between p-10 space-y-2 text-center top-32 w-11/12 lg:bg-transparent lg:flex lg:flex-row lg:gap-6 lg:items-center lg:p-0 lg:space-x-4 lg:space-y-0 lg:static lg:w-auto" data-name="nav-menu">
+                    <ul class="flex flex-col gap-3 mb-5 lg:flex-row lg:gap-3 lg:mb-0">
+                        <li class="font-semibold p-2 text-gray-700 text-lg lg:text-gray-50"><a href="#" class="p-2">About</a>
+                        </li>
+                        <li class="font-semibold p-2 text-gray-700 text-lg lg:text-gray-50"><a href="#" class="p-2">Services</a>
+                        </li>
+                        <li class="font-semibold p-2 text-gray-700 text-lg lg:text-gray-50"><a href="#" class="p-2">Projects</a>
+                        </li>
+                    </ul><a href="#" class="bg-yellow-400 font-light inline-block px-8 py-4 rounded-full text-gray-800 uppercase lg:bg-gray-100 lg:duration-300 lg:ease-in-out lg:hover:bg-opacity-30 lg:hover:text-white lg:transition-all" style="font-family: 'Fraunces'">Contact</a>
+                </div>
+                <button class="text-current lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}'><span class="block border-b-2 border-current my-1 text-gray-50 w-7"></span><span class="block border-b-2 border-current my-1 text-gray-50 w-7"></span><span class="block border-b-2 border-current my-1 text-gray-50 w-7"></span>
+                </button>
+            </nav>
+        </header>
+        <main class="w-screen">
+            <section class="flex flex-col items-center justify-center relative w-screen">
+                <img src="img/mobile/image-header.jpg" class="block w-screen lg:hidden" alt="mobile header" data-pg-ia='{"l":[{"name":"header","trg":"now","t":"this","a":"fadeInDown"}]}' data-pg-ia-apply/>
+                <img src="img/desktop/image-header.jpg" class="hidden w-screen lg:block" alt="desktop header" data-pg-ia='{"l":[{"name":"header","trg":"now","t":"this","a":"fadeInDown"}]}' data-pg-ia-apply/>
+                <h1 class="absolute text-5xl text-center text-gray-50 top-44 uppercase" style="
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            letter-spacing: 5px;
+          ">
+                We are creatives </h1>
+                <img src="img/icon-arrow-down.svg" class="absolute bottom-36 lg:bottom-auto" alt="arrow down" data-pg-ia='{"l":[{"name":"arrow-down","trg":"load","t":"this","a":"bounce","rpt":"-1","d":"5s"}]}'/>
+            </section>
+            <section class="flex flex-col-reverse items-center w-screen lg:flex-row">
+                <div class="flex flex-col gap-8 items-center px-10 py-16 lg:items-start lg:pl-40 lg:pr-20 lg:w-6/12">
+                    <h2 style="font-family: 'Fraunces', serif; font-weight: 900" class="text-4xl text-center text-gray-800 lg:text-left">
+                    Transform your brand </h2>
+                    <p style="font-family: 'Barlow', sans-serif" class="leading-6 text-center text-gray-500 lg:text-left">
+                    We are a full-service creative agency specializing in helping brands
+                    grow fast. Engage your clients through compelling visuals that do
+                    most of the marketing for you. </p><a style="font-family: 'Fraunces', serif" class="before:border-b-2 before:border-gray-800 border-b-8 border-solid border-yellow-200 duration-300 ease-in-out hover:border-yellow-300 text-gray-800 text-sm uppercase lg:transition-all" href="#">Learn more</a>
+                </div>
+                <div class="lg:w-6/12">
+                    <img src="img/desktop/image-transform.jpg" class="w-screen lg:w-screen" alt="transform" data-pg-ia='{"l":[{"name":"transform","trg":"scrolling"}]}'/>
+                </div>
+            </section>
+            <section class="flex flex-col items-center justify-center justify-items-center justify-self-center w-screen lg:flex-row">
+                <div class="w-screen lg:w-6/12">
+                    <img src="img/desktop/image-stand-out.jpg" class="w-screen" alt="stand out"/>
+                </div>
+                <div class="flex flex-col gap-8 items-center justify-center pb-14 pt-16 px-10 w-screen lg:items-start lg:justify-start lg:pl-24 lg:pr-40 lg:w-6/12">
+                    <h2 style="
+              font-family: 'Fraunces', serif;
+              font-size: 29px;
+              font-weight: 900;
+            " class="text-center text-gray-800 lg:text-left">
+                    Stand out to the right audience </h2>
+                    <p style="font-family: 'Barlow', sans-serif" class="leading-6 text-center text-gray-500 lg:text-left">
+                    Using a collaborative formula of designers, researchers,
+                    photographers, videographers, and copywriters, we’ll build and
+                    extend your brand in digital places. </p><a style="font-family: 'Fraunces', serif" class="before:border-b-2 before:border-gray-800 border-b-8 border-green-300 border-solid duration-300 ease-in-out hover:border-green-500 text-gray-800 text-sm transition-all uppercase" href="#">Learn more</a>
+                </div>
+            </section>
+            <section class="flex flex-col w-screen lg:flex-row">
+                <div class="flex flex-col items-center justify-center relative text-center w-screen lg:w-6/12">
+                    <img src="img/mobile/image-graphic-design.jpg" class="block w-screen lg:hidden" alt="graphic design"/>
+                    <img src="img/desktop/image-graphic-design.jpg" class="hidden w-screen lg:block" alt="graphic design"/>
+                    <div class="absolute bottom-16 flex flex-col gap-5 items-center justify-center justify-self-center">
+                        <h2 style="font-family: 'Fraunces', serif; font-weight: 900" class="text-3xl text-center text-gray-700">
+                        Graphic design </h2>
+                        <p style="font-family: 'Barlow', sans-serif" class="leading-6 px-10 text-gray-700 lg:px-48">
+                        Great design makes you memorable. We deliver artwork that
+                        underscores your brand message and captures potential
+                        clients&rsquo; attention. </p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center relative text-center w-screen lg:w-6/12">
+                    <img src="img/mobile/image-photography.jpg" class="block w-screen lg:hidden" alt="photography"/>
+                    <img src="img/desktop/image-photography.jpg" class="hidden w-screen lg:block" alt="photography"/>
+                    <div class="absolute bottom-16 flex flex-col gap-5 items-center justify-center justify-self-center">
+                        <h2 style="font-family: 'Fraunces', serif; font-weight: 900" class="text-3xl text-center text-gray-700">
+                        Photography </h2>
+                        <p style="font-family: 'Barlow', sans-serif" class="leading-6 px-10 text-gray-700 lg:px-48">
+                        Increase your credibility by getting the most stunning,
+                        high-quality photos that improve your business image. </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="flex flex-col gap-20 py-20 text-center lg:py-40">
+                    <h3 class="leading-5 text-gray-400 uppercase" style="font-family: 'Fraunces', serif; letter-spacing: 5px">
+                    Client testimonials </h3>
+                    <div class="flex flex-col gap-14 items-center justify-center lg:flex-row">
+                        <div class="flex flex-col items-center justify-center justify-items-center justify-self-center place-content-center place-items-center text-center lg:w-3/12">
+                            <img src="img/image-emily.jpg" class="mb-10 rounded-full w-24 lg:mb-16 lg:w-32" alt="emily"/>
+                            <p style="font-family: 'Barlow', sans-serif" class="leading-6 mb-10 px-10 text-gray-600 text-lg lg:px-0">
+                            We put our trust in Sunnyside and they delivered, making sure
+                            our needs were met and deadlines were always hit. </p><span class="font-bold mb-2 text-gray-800 text-lg" style="font-family: 'Fraunces', serif; font-weight: 900">Emily R.</span>
+                            <span style="font-family: 'Barlow', sans-serif" class="text-gray-400">Marketing Director</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center justify-items-center justify-self-center place-content-center place-items-center text-center lg:w-3/12">
+                            <img src="img/image-thomas.jpg" class="mb-10 rounded-full w-24 lg:mb-16 lg:w-32" alt="thomas"/>
+                            <p style="font-family: 'Barlow', sans-serif" class="leading-6 mb-10 px-10 text-gray-600 text-lg lg:px-0">
+                            Sunnyside&rsquo;s enthusiasm coupled with their keen interest in
+                            our brand&rsquo;s success made it a satisfying and enjoyable
+                            experience. </p><span class="font-bold mb-2 text-gray-800 text-lg" style="font-family: 'Fraunces', serif; font-weight: 900">Thomas S.</span>
+                            <span style="font-family: 'Barlow', sans-serif" class="text-gray-400">Chief Operating
+                            Officer</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center justify-items-center justify-self-center place-content-center place-items-center text-center lg:w-3/12">
+                            <img src="img/image-jennie.jpg" class="mb-10 rounded-full w-24 lg:mb-16 lg:w-32" alt="jennie"/>
+                            <p style="font-family: 'Barlow', sans-serif" class="leading-6 mb-10 px-10 text-gray-600 text-lg lg:px-0">
+                            Incredible end result! Our sales increased over 400% when we
+                            worked with Sunnyside. Highly recommended! </p><span class="font-bold mb-2 text-gray-800 text-lg" style="font-family: 'Fraunces', serif; font-weight: 900">Jennie F.</span>
+                            <span style="font-family: 'Barlow', sans-serif" class="text-gray-400">Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="flex flex-wrap items-center justify-between w-screen">
+                <div class="w-6/12 lg:w-3/12">
+                    <img src="img/mobile/image-gallery-milkbottles.jpg" class="block w-screen lg:hidden" alt="milkbottles"/>
+                    <img src="img/desktop/image-gallery-milkbottles.jpg" class="hidden w-screen lg:block" alt="milkbottles"/>
+                </div>
+                <div class="w-6/12 lg:w-3/12">
+                    <img src="img/mobile/image-gallery-orange.jpg" class="block w-screen lg:hidden" alt="orange"/>
+                    <img src="img/desktop/image-gallery-orange.jpg" class="hidden w-screen lg:block" alt="orange"/>
+                </div>
+                <div class="w-6/12 lg:w-3/12">
+                    <img src="img/mobile/image-gallery-cone.jpg" class="block w-screen lg:hidden" alt="gallery-cone"/>
+                    <img src="img/desktop/image-gallery-cone.jpg" class="hidden w-screen lg:block" alt="gallery-cone"/>
+                </div>
+                <div class="w-6/12 lg:w-3/12">
+                    <img src="img/mobile/image-gallery-sugar-cubes.jpg" class="block w-screen lg:hidden" alt="sugar-cubes"/>
+                    <img src="img/desktop/image-gallery-sugarcubes.jpg" class="hidden w-screen lg:block" alt="sugar-cubes"/>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-gray-300 flex flex-col gap-7 items-center justify-center justify-items-center justify-self-center py-20"><a href=""><img src="img/logo.svg" alt="Sunnyside" class="w-40"/></a>
+            <div class="mb-10">
+                <ul class="flex gap-14 items-center justify-center justify-items-center justify-self-center">
+                    <li class="duration-300 ease-in-outfont-semibold hover:text-gray-50 text-gray-600 transition-all"><a href="">About</a>
+                    </li>
+                    <li class="duration-300 ease-in-out font-semibold hover:text-gray-50 text-gray-600 transition-all"><a href="">Service</a>
+                    </li>
+                    <li class="duration-300 ease-in-out font-semibold hover:text-gray-50 text-gray-600 transition-all"><a href="">Project</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex gap-5 items-center justify-center"><a href="#" aria-label="Facebook profile of Sunnyside"><img src="img/icon-facebook.svg" alt="facebook"/></a>
+                <a href="#" aria-label="Instagram profile of Sunnyside"><img src="img/icon-instagram.svg" alt="Instagram"/></a>
+                <a href="#" aria-label="Twitter profile of Sunnyside"><img src="img/icon-twitter.svg" alt="Twitter"/></a>
+                <a href="#" aria-label="Pinterest profile of Sunnyside"><img src="img/icon-pinterest.svg" alt="Pinterest"/></a>
+            </div>
+        </footer>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>

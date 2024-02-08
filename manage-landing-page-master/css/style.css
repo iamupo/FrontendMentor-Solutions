@@ -1,7 +1,7 @@
 /* General CSS Reset */
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ header {
 }
 
 .header-container,
-.main-container {
+.main-container {
     display: block;
     max-width: 1440px;
     width: 100%;
@@ -196,10 +196,11 @@ header {
 
 .list {
     display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
+    align-items: flex-start;
+    gap: 2rem;
 }
 
 .list span {
@@ -214,7 +215,7 @@ header {
 
 /* .details {
 } */
-.list h6 {
+.list h3 {
     font-size: 17px;
     color: var(--Dark-Blue);
     font-weight: 600;
@@ -230,7 +231,6 @@ header {
     font-size: 16px;
     line-height: 1.6;
     font-weight: 400;
-    padding-left: 98px;
 }
 
 .review-section {
@@ -478,9 +478,9 @@ footer {
 } */
 @media (max-width:1109px) {
     .header-container,
-    .main-container,
-    .final-info-container,
-    .footer-container {
+        .main-container,
+        .final-info-container,
+        .footer-container {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -488,14 +488,14 @@ footer {
 
 @media (max-width:949px) {
     .hero-section,
-    .about-section {
+        .about-section {
         flex-direction: column-reverse;
         padding-top: 60px;
         align-items: center;
     }
 
     .hero-infos,
-    .hero-img {
+        .hero-img {
         width: 100%;
         text-align: center;
         display: flex;
@@ -614,8 +614,8 @@ footer {
     }
 
     .hamburger-menu::before,
-    .hamburger-menu::after,
-    .hamburger-menu input {
+        .hamburger-menu::after,
+        .hamburger-menu input {
         content: "";
         width: 30px;
         height: 2px;
@@ -663,6 +663,10 @@ footer {
     .nav-open {
         transform: translateY(0);
     }
+}
+
+.details {
+    margin-top: 1rem;
 }
 
 

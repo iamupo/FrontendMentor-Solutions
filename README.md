@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/OIP.JPG" alt="Your Logo" width="150" height="150">
+  <img src="img/OIP.jpg" alt="Logo" width="150" height="150">
 </p>
 
 # FrontendMentor Solutions

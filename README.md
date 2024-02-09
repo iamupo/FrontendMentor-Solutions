@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="img/OIP.jpg" alt="Logo" width="150" height="150">
+  <img src="img/OIP.jpg" alt="Logo" width="100" height="100">
 </p>
 
-# FrontendMentor Solutions
 This repository contains my solutions to various challenges from [Frontend Mentor](https://www.frontendmentor.io/) projects. Frontend Mentor is a platform that provides real-world projects for front-end developers to improve their skills by building practical projects.
 
 ## Projects

@@ -3,8 +3,7 @@
 </p>
 
 # FrontendMentor Solutions
-
-<h1>This repository contains my solutions to various challenges from [Frontend Mentor](https://www.frontendmentor.io/) projects.</h1>
+This repository contains my solutions to various challenges from [Frontend Mentor](https://www.frontendmentor.io/) projects.
 
 ## Projects
 

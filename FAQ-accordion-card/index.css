@@ -1,10 +1,42 @@
 /* General CSS Reset */
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+}
+
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    /* #### Text */
+    --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --Soft-red: hsl(14, 88%, 65%);
+
+    /* #### Gradient */
+    /* Background gradient: */
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soft-blue: hsl(240, 73%, 65%);
+
+    /* ### Neutral */
+    /* #### Text */
+    --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --Dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /* #### Dividers */
+    --Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+body {
+    background-color: linear-gradient(91deg, rgb(101, 101, 231) 0%, rgb(175, 103, 233) 98%);
+
+    /* background-image: linear-gradient(91deg, rgb(101, 101, 231) 0%, rgb(175, 103, 233) 98%); */
+}
+
+main {
+    max-width: 100%;
+    max-height: 100%;
 }

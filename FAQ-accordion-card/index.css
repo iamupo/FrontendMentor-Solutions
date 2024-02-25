@@ -47,6 +47,13 @@ main {
     align-content: center;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .wrapper {
     max-width: 57.5rem;
     width: 100%;
@@ -66,8 +73,10 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(2) {
+    padding: 4.375rem;
+
     h1 {
-        text-align: center;
+        text-align: left;
         text-transform: uppercase;
     }
 }

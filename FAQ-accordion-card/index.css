@@ -54,7 +54,7 @@ img {
     height: auto;
 }
 
-.wrapper {
+section {
     max-width: 57.5rem;
     width: 100%;
     max-height: 31.875rem;
@@ -64,19 +64,30 @@ img {
     display: flex;
 }
 
-section {
+.img-wrapper,
+.faq-wrapper {
     max-width: 50%;
     width: 100%;
 }
 
-section:nth-of-type(1) {
-}
-
-section:nth-of-type(2) {
+.faq-wrapper {
     padding: 4.375rem;
 
     h1 {
         text-align: left;
         text-transform: uppercase;
     }
+}
+
+.img-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-wrapper img {
+    position: absolute;
+    left: -77px;
 }

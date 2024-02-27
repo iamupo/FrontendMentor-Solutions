@@ -112,9 +112,14 @@ dl {
 }
 
 dt {
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--Very-dark-desaturated-blue);
 }
 
 dd {

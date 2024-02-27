@@ -102,3 +102,18 @@ img:nth-of-type(2) {
     max-width: 11.688rem;
     width: 100%;
 }
+
+dl {
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+dd {
+    margin-bottom: 15px;
+    display: none;
+}

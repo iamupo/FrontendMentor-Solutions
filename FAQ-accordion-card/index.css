@@ -45,6 +45,7 @@ main {
     justify-content: center;
     align-content: center;
     background-color: #6862e6;
+    padding: 1rem;
 }
 
 img {
@@ -62,6 +63,7 @@ section {
     background-color: var(--Light-grayish-blue);
     border-radius: 1.4rem;
     display: flex;
+    box-shadow: 0 20px 26px rgba(0, 0, 0, 0.17);
 }
 
 .img-wrapper,
@@ -77,6 +79,11 @@ section {
     h1 {
         text-align: left;
         text-transform: uppercase;
+        margin-bottom: 30px;
+        font-weight: 700;
+        color: var(--Very-dark-desaturated-blue);
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 30px;
     }
 }
 
@@ -110,23 +117,23 @@ dl {
 
 .faq-item {
     max-width: 100%;
-    padding-bottom: 1rem;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.09);
-    padding-top: 1rem;
 }
 
 dt {
     font-weight: 400;
-    margin-bottom: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--Very-dark-desaturated-blue);
     transition: font-weight 350ms ease-in;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-dt:hover {
+dt:hover,
+dt:focus {
     font-weight: 700;
     transition: all 350ms ease-in;
 }
@@ -136,13 +143,8 @@ dd {
     display: none;
     color: var(--Very-dark-desaturated-blue);
     font-weight: 400;
-}
-
-.navigator {
-}
-
-.navigator img {
-    width: 100%;
-    max-width: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-right: 8px;
 }
 

@@ -107,6 +107,10 @@ dl {
     margin-bottom: 20px;
 }
 
+.faq-item {
+    max-width: 100%;
+}
+
 dt {
     font-weight: bold;
     margin-bottom: 5px;
@@ -117,3 +121,12 @@ dd {
     margin-bottom: 15px;
     display: none;
 }
+
+.navigator {
+}
+
+.navigator img {
+    width: 100%;
+    max-width: 10px;
+}
+

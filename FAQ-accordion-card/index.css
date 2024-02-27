@@ -126,6 +126,11 @@ dt {
     transition: font-weight 350ms ease-in;
 }
 
+dt:hover {
+    font-weight: 700;
+    transition: font-weight 350ms ease-in;
+}
+
 dd {
     margin-bottom: 15px;
     display: none;
@@ -139,10 +144,5 @@ dd {
 .navigator img {
     width: 100%;
     max-width: 10px;
-}
-
-dt:hove,
-dt:focus {
-    font-weight: 700;
 }
 

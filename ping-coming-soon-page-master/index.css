@@ -1,0 +1,24 @@
+/* General CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    --Blue: hsl(223, 87%, 63%);
+
+    /* ### Secondary */
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+
+    /* ### Neutral */
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}

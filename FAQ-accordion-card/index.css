@@ -71,7 +71,8 @@ section {
 }
 
 .faq-wrapper {
-    padding: 4.375rem;
+    padding-top: 4.375rem;
+    padding-right: 95px;
 
     h1 {
         text-align: left;
@@ -110,7 +111,7 @@ dl {
 .faq-item {
     max-width: 100%;
     padding-bottom: 1rem;
-    border-bottom: 0.5px solid #959595;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.09);
     padding-top: 1rem;
 }
 
@@ -121,21 +122,20 @@ dt {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Kumbh Sans', sans-serif;
     color: var(--Very-dark-desaturated-blue);
     transition: font-weight 350ms ease-in;
 }
 
 dt:hover {
     font-weight: 700;
-    transition: font-weight 350ms ease-in;
+    transition: all 350ms ease-in;
 }
 
 dd {
     margin-bottom: 15px;
     display: none;
-    font-family: 'Kumbh Sans', sans-serif;
-    color: var(--Soft-red);
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 400;
 }
 
 .navigator {

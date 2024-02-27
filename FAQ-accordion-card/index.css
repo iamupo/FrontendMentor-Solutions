@@ -109,6 +109,9 @@ dl {
 
 .faq-item {
     max-width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #959595;
+    padding-top: 1rem;
 }
 
 dt {
@@ -120,11 +123,14 @@ dt {
     justify-content: space-between;
     font-family: 'Kumbh Sans', sans-serif;
     color: var(--Very-dark-desaturated-blue);
+    transition: font-weight 350ms ease-in;
 }
 
 dd {
     margin-bottom: 15px;
     display: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--Soft-red);
 }
 
 .navigator {
@@ -133,5 +139,10 @@ dd {
 .navigator img {
     width: 100%;
     max-width: 10px;
+}
+
+dt:hove,
+dt:focus {
+    font-weight: 700;
 }
 

@@ -53,7 +53,7 @@ section {
 h1 {
     font-weight: 700;
     color: #172632;
-    font-size: 46px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
     margin-bottom: 2rem;
 }
 
@@ -81,7 +81,7 @@ p {
     font-size: 20px;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
-    margin-bottom: 2rem;
+    margin-bottom: clamp(1rem, 3vw, 2rem);
 }
 
 form {
@@ -111,7 +111,8 @@ form button {
     width: 100%;
     max-width: 200px;
     font-size: 16px;
-    box-shadow: 0px 15px 33px rgba(77, 123, 243, 0.16);
+    box-shadow: 0px 15px 33px rgba(77, 123, 243, 0.38);
+    cursor: pointer;
 }
 
 @media (max-width:780px) {
@@ -141,7 +142,7 @@ form button {
 }
 
 .copy-right {
-    font-size: 14px;
+    font-size: clamp(0.6rem, 2.5vw, 1rem);
     font-weight: 300;
 }
 

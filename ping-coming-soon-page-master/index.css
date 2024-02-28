@@ -68,6 +68,7 @@ img {
     margin-right: auto;
     display: block;
     margin-left: auto;
+    margin-bottom: 5rem;
 }
 
 .logo {
@@ -128,6 +129,27 @@ form button {
     border-radius: 50px;
     border-color: #000000;
     outline: 1px solid #cccccc;
-    width: 47px;
-    height: 23px;
+}
+
+.socials-wrapper {
+    color: var(--Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.copy-right {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }

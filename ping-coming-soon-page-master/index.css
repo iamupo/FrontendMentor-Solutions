@@ -98,6 +98,7 @@ form input {
     border-radius: 25px;
     padding: 1rem;
     width: 100%;
+    border-color: #000000;
 }
 
 form button {
@@ -120,4 +121,13 @@ form button {
     form button {
         max-width: 100%;
     }
+}
+
+.social {
+    border-style: none;
+    border-radius: 50px;
+    border-color: #000000;
+    outline: 1px solid #cccccc;
+    width: 47px;
+    height: 23px;
 }

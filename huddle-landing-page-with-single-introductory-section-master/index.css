@@ -86,7 +86,7 @@ section:nth-of-type(2) {
     margin-top: 3.5rem;
 }
 
-h1 {
+h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #fffeff;
@@ -157,6 +157,17 @@ footer {
     overflow: hidden;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 .footer-link:hover {
     color: #fc54c2;
     border-color: #fc54c2;
@@ -199,7 +210,7 @@ footer {
         line-height: 50px;
     }
 
-    h1 {
+    h2 {
         font-size: 1.4rem;
     }
 
@@ -277,5 +288,9 @@ footer {
 
 .fade-up:nth-child(7) {
     animation-delay: 1.4s;
+}
+
+h1 {
+    display: none;
 }
 

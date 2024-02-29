@@ -24,19 +24,20 @@ body {
     overflow-x: hidden;
 }
 
+body:before {
+    background-image: url('img/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+}
+
 body:before,
 body:after {
     content: '';
     position: absolute;
     width: 100%;
-    height: auto;
     z-index: 1;
-}
-
-body:before {
-    background-image: url('img/bg-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
 }
 
 body:after {
@@ -62,25 +63,18 @@ header {
     margin-bottom: 100px;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: all 350ms ease-in-out;
-}
-
-.logo {
-    max-width: 201px;
-    transition: all 350ms ease-in-out;
-}
-
 main {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
     transition: all 350ms ease-in-out;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 section:nth-of-type(1) {
@@ -109,6 +103,19 @@ p {
     margin-bottom: 24px;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all 350ms ease-in-out;
+}
+
+.logo {
+    max-width: 201px;
+    transition: all 350ms ease-in-out;
+}
+
 .cta-btn {
     font-family: 'Poppins', sans-serif;
     color: var(--Violet);
@@ -124,12 +131,6 @@ p {
     width: 100%;
     display: inline-block;
     overflow: hidden;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .cta-btn:hover {
@@ -163,13 +164,13 @@ footer {
     border-color: #fc54c2;
 }
 
-@media (max-width:1258px) {
+@media (max-width: 1258px) {
     .container {
         padding: 4rem 2rem;
     }
 }
 
-@media (max-width:1023px) {
+@media (max-width: 1023px) {
     .container {
         padding: 4rem 4rem;
     }
@@ -185,12 +186,12 @@ footer {
         margin-bottom: 5rem;
     }
 
-    section:nth-of-type(1) {
+    section:nth-of-type(1),
+    section:nth-of-type(2) {
         max-width: 100%;
     }
 
     section:nth-of-type(2) {
-        max-width: 100%;
         align-items: center;
     }
 
@@ -219,7 +220,7 @@ footer {
     }
 }
 
-@media (max-width:374px) {
+@media (max-width: 374px) {
     .container {
         padding: 2.5rem 2rem;
     }
@@ -232,7 +233,3 @@ footer {
         display: block;
     }
 }
-
-
-    
-

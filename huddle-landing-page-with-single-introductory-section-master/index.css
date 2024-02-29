@@ -58,7 +58,66 @@ body:after {
     height: 100vh;
     position: relative;
     z-index: 1;
+    padding: 4rem 5rem;
 }
 
 header {
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    max-width: 201px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+section:nth-of-type(1) {
+    max-width: 60%;
+    width: 100%;
+}
+
+section:nth-of-type(2) {
+    max-width: 40%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fffeff;
+    font-size: 2.5rem;
+    margin-bottom: 42px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fbedff;
+    margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+    font-family: 'Poppins', sans-serif;
+    color: var(--Violet);
+    background-color: #ffffff;
+    padding: 20px 65px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px rgba(24, 24, 24, 0.3);
+    font-size: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }

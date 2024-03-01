@@ -27,6 +27,10 @@ body {
     font-family: 'Poppins', sans-serif;
     background: var(--Red);
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 body:before,
@@ -44,4 +48,49 @@ body:before {
 body:after {
     background-image: url('img/bg-intro-mobile.png');
     display: none;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 168px;
+    padding-left: 168px;
+    z-index: 1;
+}
+
+section {
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(1) {
+    gap: 1.5rem;
+    padding-right: 3rem;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 59px;
+}
+
+p {
+    color: #fee9e8;
+    font-size: 16px;
+}
+
+section:nth-of-type(2) {
+}
+
+.trial-notify {
 }

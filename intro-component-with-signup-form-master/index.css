@@ -61,6 +61,8 @@ main {
     padding-right: 168px;
     padding-left: 168px;
     z-index: 1;
+    transition: all 0.3s ease-in-out;
+    gap: 3rem;
 }
 
 section {
@@ -73,7 +75,6 @@ section {
 
 section:nth-of-type(1) {
     gap: 1.5rem;
-    padding-right: 3rem;
 }
 
 h1 {
@@ -90,7 +91,111 @@ p {
 }
 
 section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
 }
 
 .trial-notify {
+    color: #fff;
+    background-color: #6055a5;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.17);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.17);
+}
+
+input {
+    font-weight: 600;
+    color: var(--Dark-Blue);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border-style: solid;
+    transition: all 350ms ease-in-out;
+    border-width: 1px;
+}
+
+input:focus {
+    border-color: #44d513;
+    border-width: 0.8px;
+}
+
+button {
+    background-color: var(--Green);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: 1px solid hsl(154, 59%, 51%);
+    border-style: none;
+    box-shadow: 0px 5px 37px rgba(102, 19, 19, 0.15);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 350ms ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+.terms {
+    font-size: 8px;
+    text-align: center;
+    font-weight: normal;
+    color: var(--Grayish-Blue);
+    margin-top: -6px;
+}
+
+.terms a {
+    font-weight: 700;
+    font-size: 9px;
+    color: var(--Red);
+}
+
+button:hover {
+    background-color: var(--Grayish-Blue);
+    border-color: hsl(249, 10%, 26%);
+}
+
+@media (max-width:1023px) {
+    main {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width:767px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        gap: 4rem;
+    }
+
+    section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .trial-notify {
+        padding-left: 4rem;
+        padding-right: 4rem;
+
+        /* font-size: 10px */
+    }
 }

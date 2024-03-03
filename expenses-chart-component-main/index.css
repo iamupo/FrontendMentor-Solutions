@@ -29,15 +29,49 @@ body {
     justify-content: center;
     align-content: center;
     overflow-y: auto;
+    font-family: 'DM Sans', sans-serif;
 }
 
 main {
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    padding: 2rem;
+}
+
+.wrapper {
+    max-width: 540px;
+    width: 100%;
+    height: auto;
+}
+
+.header-bar {
+    background-color: var(--Soft-red);
+    border-radius: 1.5rem;
+    height: 125px;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-balance {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.new-balance > span {
+    color: var(--Very-pale-orange);
+}
+
+.new-balance > p {
+    font-size: 32px;
+    color: var(--Very-pale-orange);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }

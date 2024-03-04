@@ -39,7 +39,8 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 2rem;
+    padding: 1.5rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .wrapper {
@@ -61,6 +62,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: all 0.3s ease-in-out;
 }
 
 .new-balance {
@@ -87,6 +89,7 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
 }
 
 p.spendings {
@@ -94,10 +97,16 @@ p.spendings {
     font-weight: 700;
     color: var(--Dark-brown);
     font-size: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
 .bar {
     width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .bar-chat {
@@ -109,6 +118,7 @@ p.spendings {
     border-bottom: 1px solid rgba(0, 0, 0, 0.14);
     margin-top: 5rem;
     margin-bottom: 3rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .bar-wrapper {
@@ -166,6 +176,23 @@ p.spendings {
     border-radius: 6px;
 }
 
+.chart-count {
+    background-color: #3b2316;
+    width: 75px;
+    height: 40px;
+    position: absolute;
+    top: -50px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+}
+
+.chart-count > span {
+    color: var(--Cream);
+    font-weight: 600;
+}
+
 .amount {
     display: flex;
     align-items: center;
@@ -200,9 +227,27 @@ p.spendings {
     color: var(--Soft-red);
 }
 
-.chart-count {
-    background-color: #3b2316;
+@media (max-width:381px) {
+    .header-bar,
+    .info-bar {
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    p.spendings {
+        font-size: 25px;
+    }
+
+    .bar {
+        width: 80%;
+    }
+
+    .bar-chat {
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
 }
+
 
 
 

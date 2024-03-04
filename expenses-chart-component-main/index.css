@@ -46,6 +46,10 @@ main {
     max-width: 540px;
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .header-bar {
@@ -75,3 +79,130 @@ main {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
 }
+
+.info-bar {
+    background-color: var(--Very-pale-orange);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+p.spendings {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: var(--Dark-brown);
+    font-size: 30px;
+}
+
+.bar {
+    width: 100%;
+}
+
+.bar-chat {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.bar-wrapper {
+    max-width: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bar-wrapper > span {
+    color: var(--Soft-red);
+}
+
+.bar-wrapper:nth-child(1) .bar {
+    height: 50px;
+    background-color: #ec755d;
+    border-radius: 6px;
+}
+
+.bar-wrapper:nth-child(2) .bar {
+    height: 100px;
+    background-color: #ec755d;
+    border-radius: 6px;
+}
+
+.bar-wrapper:nth-child(3) .bar {
+    height: 150px;
+    background-color: #76b5bc;
+    border-radius: 6px;
+}
+
+.bar-wrapper:nth-child(4) .bar {
+    height: 90px;
+    background-color: #ec755d;
+    border-radius: 6px;
+}
+
+.bar-wrapper:nth-child(5) .bar {
+    height: 65px;
+    background-color: #ea765d;
+    border-radius: 6px;
+}
+
+.bar-wrapper:nth-child(6) .bar {
+    height: 125px;
+    background-color: #ec755d;
+    border-radius: 6px;
+}
+
+.bar-wrapper:nth-child(7) .bar {
+    height: 75px;
+    background-color: #ec755d;
+    border-radius: 6px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-amount > span {
+    color: var(--Soft-red);
+}
+
+.total-amount > p {
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: var(--Dark-brown);
+}
+
+.total-amount {
+}
+
+.from-last-month {
+    text-align: right;
+}
+
+.from-last-month > span {
+    color: var(--Dark-brown);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.from-last-month > p {
+    color: var(--Soft-red);
+}
+
+.chart-count {
+    background-color: #3b2316;
+}
+
+
+

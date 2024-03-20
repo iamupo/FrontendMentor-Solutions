@@ -1,7 +1,7 @@
 /* General CSS Reset */
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,6 @@
 }
 
 :root {
-    /* ## Colors */
     /* ### Primary */
     --Blue: hsl(246, 80%, 60%);
     --Light-red-work: hsl(15, 100%, 70%);
@@ -25,4 +24,8 @@
     --Dark-blue: hsl(235, 46%, 20%);
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
 }

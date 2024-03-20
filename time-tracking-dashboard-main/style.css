@@ -44,4 +44,14 @@ main {
 }
 
 .wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userprofile {
+    max-width: 16rem;
+    width: 100%;
+    height: auto;
 }

@@ -59,6 +59,10 @@ main {
     align-items: center;
 }
 
+.userprofile-wrapper {
+    position: relative;
+}
+
 .userprofile {
     max-width: 16rem;
     width: 100%;
@@ -69,6 +73,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    color: var(--Pale-Blue);
+    position: relative;
+    z-index: 1;
 
     img {
         max-width: 5.25rem;
@@ -76,15 +83,41 @@ main {
         border-color: #fdfcff;
         border-style: solid;
         border-radius: 50%;
+        margin-bottom: 3rem;
     }
 
     span {
-        color: white;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
     }
 
     h2 {
-    }
+        font-weight: 300;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
 
-    align-items: {
+        align-items: {
+        }
+    }
+}
+
+.timing-tracks {
+    width: 100%;
+    background-color: #1d204b;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 3rem 2rem 2rem;
+    top: 21.5rem;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        color: #7277af;
     }
 }

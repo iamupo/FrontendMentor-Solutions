@@ -113,6 +113,11 @@ main {
     padding: 3rem 2rem 2rem;
     top: 21.5rem;
 
+    li {
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+
     ul {
         display: flex;
         flex-direction: column;
@@ -120,4 +125,16 @@ main {
         gap: 1rem;
         color: #7277af;
     }
+
+    li:hover {
+        color: var(--Pale-Blue);
+    }
 }
+
+.activity {
+    max-width: 16rem;
+    width: 100%;
+    height: auto;
+    background-color: #1d204b;
+}
+

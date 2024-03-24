@@ -61,6 +61,8 @@ main {
     position: relative;
     width: 100%;
     height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .userprofile {
@@ -95,9 +97,6 @@ main {
         margin-bottom: 3rem;
         font-family: 'Rubik', sans-serif;
         color: #fff;
-
-        align-items: {
-        }
     }
 }
 
@@ -137,6 +136,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 72px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .activity {

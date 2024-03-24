@@ -60,11 +60,11 @@ main {
 
 .userprofile-wrapper {
     position: relative;
+    width: 100%;
+    max-width: 16rem;
 }
 
 .userprofile {
-    max-width: 16rem;
-    width: 100%;
     height: auto;
     background-color: #5746ea;
     padding: 2rem;
@@ -75,6 +75,7 @@ main {
     color: var(--Pale-Blue);
     position: relative;
     z-index: 1;
+    width: 100%;
 
     img {
         max-width: 5.25rem;
@@ -82,7 +83,7 @@ main {
         border-color: #fdfcff;
         border-style: solid;
         border-radius: 50%;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     }
 
     span {
@@ -94,6 +95,8 @@ main {
         font-weight: 300;
         font-size: 2.5rem;
         margin-bottom: 3rem;
+        font-family: 'Rubik', sans-serif;
+        color: #fff;
 
         align-items: {
         }
@@ -131,10 +134,8 @@ main {
 }
 
 .activities {
-    max-width: 16rem;
     width: 100%;
     height: auto;
-    background-color: #1d204b;
 }
 
 .work {
@@ -142,9 +143,9 @@ main {
     flex-direction: column;
     padding: 2rem;
     background-color: #1d204b;
-    max-width: 16rem;
-    width: 100^%;
     height: auto;
+    border-radius: 1rem;
+    max-width: 16rem;
 }
 
 .name {
@@ -152,5 +153,30 @@ main {
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     color: #fff;
+    align-items: center;
+    align-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.fas {
+    color: var(--Pale-Blue);
+    font-weight: lighter;
+}
+
+.hrs-used {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.period {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: var(--Soft-blue-play);
+    font-weight: 300;
 }
 

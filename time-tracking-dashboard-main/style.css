@@ -130,10 +130,27 @@ main {
     }
 }
 
-.activity {
+.activities {
     max-width: 16rem;
     width: 100%;
     height: auto;
     background-color: #1d204b;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #1d204b;
+    max-width: 16rem;
+    width: 100^%;
+    height: auto;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
 }
 

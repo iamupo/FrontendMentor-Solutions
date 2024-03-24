@@ -53,7 +53,7 @@ main {
 
 .wrapper {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
 }
 
@@ -95,7 +95,7 @@ main {
     h2 {
         font-weight: 300;
         font-size: 2.2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
         font-family: 'Rubik', sans-serif;
         color: #fff;
 
@@ -112,8 +112,8 @@ main {
     left: 0;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    padding: 3rem 2rem 2rem;
-    top: 20.5rem;
+    padding: 5rem 2rem 2rem;
+    top: 19rem;
     width: 100%;
 
     li {
@@ -141,6 +141,7 @@ main {
     flex-direction: column;
     max-height: 500px;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .activity {
@@ -152,6 +153,7 @@ main {
     border-radius: 1rem;
     max-width: 16rem;
     position: relative;
+    margin-top: auto;
 }
 
 .activity:before {
@@ -176,7 +178,7 @@ main {
     align-content: center;
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .fas {
@@ -187,15 +189,15 @@ main {
 .hrs-used {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #fff;
     margin-bottom: 10px;
 }
 
 .period {
     font-family: 'Rubik', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     color: var(--Soft-blue-play);
-    font-weight: 300;
+    font-weight: 400;
 }
 

@@ -57,3 +57,21 @@ main {
     align-self: center;
     justify-content: center;
 }
+
+.useractivity {
+}
+
+.userprofile {
+    background-color: #5746ea;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+
+    img {
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+    }
+}

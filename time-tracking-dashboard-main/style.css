@@ -74,4 +74,21 @@ main {
         border: 5px solid #ffffff;
         border-radius: 50%;
     }
+
+    p {
+        color: var(--Soft-blue-play);
+    }
+}
+
+.profileinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.username {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Rubik';
+    font-weight: 300;
 }

@@ -129,23 +129,39 @@ main {
 
 .activity:nth-of-type(1) {
     background-color: var(--Light-red-work);
+}
 
-    .bg-work {
-        background-image: url('media/icon-work.svg');
-        background-repeat: no-repeat;
-        background-position: right center;
-        background-size: auto;
-        width: 100%;
-        height: 4rem;
-        padding-right: 1rem;
-    }
+.type-bg {
+    background-image: url('media/icon-work.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto;
+    width: 100%;
+    height: 4rem;
+    padding-right: 1rem;
+}
 
-    .details-work {
-        padding: 2rem;
-        background-color: var(--Dark-blue);
-        border-radius: 20px;
-    }
+.activity-type {
+    padding: 2rem;
+    background-color: var(--Dark-blue);
+    border-radius: 20px;
 }
 
 .activity:nth-of-type(2) {
+}
+
+.activities-ctrl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activities-ctrl > span {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.activities-ctrl > i {
+    color: var(--Pale-Blue);
 }

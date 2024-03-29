@@ -137,11 +137,13 @@ main {
         background-size: auto;
         width: 100%;
         height: 4rem;
+        padding-right: 1rem;
     }
 
     .details-work {
         padding: 2rem;
         background-color: var(--Dark-blue);
+        border-radius: 20px;
     }
 }
 

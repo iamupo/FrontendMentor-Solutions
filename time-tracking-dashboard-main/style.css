@@ -59,6 +59,9 @@ main {
 }
 
 .useractivity {
+    background-color: var(--Very-dark-blue);
+    overflow: hidden;
+    border-radius: 25px;
 }
 
 .userprofile {

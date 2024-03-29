@@ -59,7 +59,7 @@ main {
 }
 
 .useractivity {
-    background-color: var(--Very-dark-blue);
+    background-color: var(--Dark-blue);
     overflow: hidden;
     border-radius: 25px;
 }
@@ -97,7 +97,7 @@ main {
 }
 
 .activitylists {
-    background-color: var(--Very-dark-blue);
+    background-color: var(--Dark-blue);
     padding: 2rem;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -133,8 +133,15 @@ main {
     .bg-work {
         background-image: url('media/icon-work.svg');
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: right center;
         background-size: auto;
+        width: 100%;
+        height: 4rem;
+    }
+
+    .details-work {
+        padding: 2rem;
+        background-color: var(--Dark-blue);
     }
 }
 

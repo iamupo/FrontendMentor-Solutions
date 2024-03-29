@@ -107,4 +107,13 @@ main {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     color: var(--Desaturated-blue);
+
+    li {
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+}
+
+.activitylists li:hover {
+    color: var(--Pale-Blue);
 }

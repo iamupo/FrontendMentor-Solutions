@@ -104,16 +104,39 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    color: var(--Desaturated-blue);
 
     li {
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        color: var(--Desaturated-blue);
         transition: all 0.3s ease;
         cursor: pointer;
+        font-weight: 400;
     }
 }
 
 .activitylists li:hover {
     color: var(--Pale-Blue);
+}
+
+.activities {
+}
+
+.activity {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.activity:nth-of-type(1) {
+    background-color: var(--Light-red-work);
+
+    .bg-work {
+        background-image: url('media/icon-work.svg');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: auto;
+    }
+}
+
+.activity:nth-of-type(2) {
 }

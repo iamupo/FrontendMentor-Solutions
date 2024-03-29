@@ -94,4 +94,6 @@ main {
 }
 
 .activitylists {
+    background-color: var(--Very-dark-blue);
+    padding: 2rem;
 }

@@ -56,22 +56,26 @@ main {
 .wrapper {
     align-self: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .useractivity {
     background-color: var(--Dark-blue);
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 1.5rem;
 }
 
 .userprofile {
     background-color: #5746ea;
-    border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     gap: 1.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 
     img {
         border: 5px solid #ffffff;
@@ -99,8 +103,6 @@ main {
 .activitylists {
     background-color: var(--Dark-blue);
     padding: 2rem;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -123,16 +125,19 @@ main {
 }
 
 .activity {
-    border-radius: 25px;
+    border-radius: 1.5rem;
     overflow: hidden;
 }
 
 .activity:nth-of-type(1) {
     background-color: var(--Light-red-work);
+
+    .type-bg {
+        background-image: url('media/icon-work.svg');
+    }
 }
 
 .type-bg {
-    background-image: url('media/icon-work.svg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: auto;
@@ -145,12 +150,16 @@ main {
     padding: 2rem;
     background-color: var(--Dark-blue);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .activity:nth-of-type(2) {
 }
 
-.activities-ctrl {
+.activities-ctrl,
+.activities-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,8 +169,23 @@ main {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     color: #fff;
+    font-weight: 500;
 }
 
 .activities-ctrl > i {
     color: var(--Pale-Blue);
+}
+
+.activities-details > div {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: clamp(2rem, 5vh, 4rem);
+}
+
+.activities-details > p {
+    color: var(--Pale-Blue);
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
 }

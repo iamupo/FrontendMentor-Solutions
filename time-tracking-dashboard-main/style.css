@@ -158,26 +158,26 @@ main {
 }
 
 .activity:nth-of-type(4) {
-    background-color: var(--Soft-blue-play);
+    background-color: var(--Lime-green-exercise);
 
     .type-bg {
-        background-image: url('media/icon-play.svg');
+        background-image: url('media/icon-exercise.svg');
     }
 }
 
-.activity:nth-of-type(2) {
-    background-color: var(--Soft-blue-play);
+.activity:nth-of-type(5) {
+    background-color: var(--Violet-social);
 
     .type-bg {
-        background-image: url('media/icon-play.svg');
+        background-image: url('media/icon-social.svg');
     }
 }
 
-.activity:nth-of-type(2) {
-    background-color: var(--Soft-blue-play);
+.activity:nth-of-type(6) {
+    background-color: var(--Soft-orange-self-care);
 
     .type-bg {
-        background-image: url('media/icon-play.svg');
+        background-image: url('media/icon-self-care.svg');
     }
 }
 
@@ -197,9 +197,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-.activity:nth-of-type(2) {
 }
 
 .activities-ctrl,

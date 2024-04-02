@@ -249,7 +249,7 @@ main {
     font-weight: 400;
 }
 
-@media (min-width:768px) {
+@media (min-width:1024px) {
     .wrapper {
         flex-direction: row;
         align-items: flex-start;

@@ -39,6 +39,7 @@ This repository contains my solutions to various challenges from [Frontend Mento
 31. [testimonials-grid-section](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/testimonials-grid-section)
 32. [tip-calculator-app-main](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/tip-calculator-app-main)
 33. [tracking-intro-component](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/tracking-intro-component)
+34. [Newsletter sign-up form with success message](https://iamupo.github.io/FrontendMentor-Solutions/ping-coming-soon-page-master)
 
 ## Getting Started
 

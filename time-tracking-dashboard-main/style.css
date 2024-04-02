@@ -251,7 +251,17 @@ main {
 
 @media (min-width:1024px) {
     .wrapper {
+    }
+
+    .activities {
         flex-direction: row;
-        align-items: flex-start;
+        width: 100%;
+        max-width: 65rem;
+        flex-wrap: wrap;
+    }
+
+    .activity {
+        width: 100%;
+        max-width: 20.5rem;
     }
 }

@@ -13,7 +13,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Newsletter sign-up form with success message](https://iamupo.github.io/FrontendMentor-Solutions/ping-coming-soon-page-master)
+You can view the live version of this project on GitHub Pages: [Ping coming soon page challenge](https://iamupo.github.io/FrontendMentor-Solutions/ping-coming-soon-page-master)
 
 ## View Code Repo
 [Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/ping-coming-soon-page-master)

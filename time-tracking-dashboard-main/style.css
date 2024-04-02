@@ -133,6 +133,7 @@ main {
     border-radius: 1.5rem;
     overflow: hidden;
     cursor: pointer;
+    width: 100%;
 }
 
 .activity:nth-of-type(1) {
@@ -249,19 +250,22 @@ main {
     font-weight: 400;
 }
 
-@media (min-width:1024px) {
+@media (min-width:768px) {
     .wrapper {
+        max-width: 70rem;
+        width: 100%;
     }
 
     .activities {
         flex-direction: row;
         width: 100%;
-        max-width: 65rem;
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
     .activity {
         width: 100%;
-        max-width: 20.5rem;
+        max-width: 25rem;
     }
 }
+

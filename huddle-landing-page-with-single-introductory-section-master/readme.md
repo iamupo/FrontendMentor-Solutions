@@ -14,7 +14,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [FAQ accordion card challenge on Frontend Mentor](https://iamupo.github.io/FrontendMentor-Solutions/huddle-landing-page-with-single-introductory-section-master)
+You can view the live version of this project on GitHub Pages: [Huddle landing page with single introductory section](https://iamupo.github.io/FrontendMentor-Solutions/huddle-landing-page-with-single-introductory-section-master)
 
 ## View Code Repo
 [Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/huddle-landing-page-with-single-introductory-section-master)

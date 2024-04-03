@@ -10,7 +10,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Screenshots
 
-![Screenshot 1](screenshot.png)
+![Screenshot 1](imh/screenshot.png)
 
 ## View Live
 

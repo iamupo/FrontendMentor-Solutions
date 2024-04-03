@@ -12,7 +12,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ![Screenshot](media/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Order-summary-card](https://iamupo.github.io/FrontendMentor-Solutions/time-tracking-dashboard-main/)
+You can view the live version of this project on GitHub Pages: [Time tracking dashboard](https://iamupo.github.io/FrontendMentor-Solutions/time-tracking-dashboard-main/)
 
 ## View Code Repo
 

@@ -10,7 +10,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ## Screenshots
 
-![Screenshot 1](img/screenshot.png)
+![Screenshot 1](screenshot.png)
 
 ## View Live
 

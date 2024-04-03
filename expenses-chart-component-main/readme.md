@@ -14,7 +14,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [FAQ accordion card challenge on Frontend Mentor](https://iamupo.github.io/FrontendMentor-Solutions/expenses-chart-component-main)
+You can view the live version of this project on GitHub Pages: [[Expenses chart component](https://iamupo.github.io/FrontendMentor-Solutions/expenses-chart-component-main)
 
 ## View Code Repo
 [Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/expenses-chart-component-main)

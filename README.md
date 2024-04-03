@@ -40,6 +40,10 @@ This repository contains my solutions to various challenges from [Frontend Mento
 32. [tip-calculator-app-main](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/tip-calculator-app-main)
 33. [tracking-intro-component](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/tracking-intro-component)
 34. [Ping coming soon page challenge](https://iamupo.github.io/FrontendMentor-Solutions/ping-coming-soon-page-master)
+35. [Huddle landing page with single introductory section](https://iamupo.github.io/FrontendMentor-Solutions/huddle-landing-page-with-single-introductory-section-master)
+36. [Expenses chart component](https://iamupo.github.io/FrontendMentor-Solutions/expenses-chart-component-main)
+37. [Rock, Paper, Scissors](https://iamupo.github.io/FrontendMentor-Solutions/Rock-Paper-Scissors/)
+38. [Time tracking dashboard](https://iamupo.github.io/FrontendMentor-Solutions/time-tracking-dashboard-main/)
 
 ## Getting Started
 

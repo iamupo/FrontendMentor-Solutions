@@ -1,7 +1,7 @@
 /* Reset and Box Sizing */
 *,
-*::before,
-*::after {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,4 +25,9 @@
     --Light-Grayish-Blue-Toggle-Background: hsl(223, 50%, 87%);
     --Grayish-Blue-Text: hsl(225, 20%, 60%);
     --Dark-Desaturated-Blue-Text-CTA-Background: hsl(227, 35%, 25%);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #f9faff;
 }

@@ -13,7 +13,7 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ![Screenshot](img/screenshot.jpg)
 
-You can view the live version of this project on GitHub Pages: [Time tracking dashboard](https://iamupo.github.io/FrontendMentor-Solutions/interactive-pricing-component-main/)
+You can view the live version of this project on GitHub Pages: [Interactive pricing component](https://iamupo.github.io/FrontendMentor-Solutions/interactive-pricing-component-main/)
 
 ## View Code Repo
 

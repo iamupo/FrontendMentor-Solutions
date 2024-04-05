@@ -6,6 +6,54 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <title>Frontend Mentor | Interactive pricing component</title>         
         <link href="index.css" rel="stylesheet" type="text/css">
-    </head>     
-    <body></body>     
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:600,800&display=swap">
+    </head>
+    <body>
+        <main>
+            <div class="title">
+                <h1>Simple, traffic-based pricing</h1>
+                <p>Sign-up for our 30-day trial. No credit card required.</p>
+            </div>
+            <div class="warpper">
+                <div class="ctrl">
+                    <div class="ctrl-details">
+                        <p>100k Pageviews</p>
+                        <div class="pricing">$16.00<span>/month</span>
+                        </div>
+                    </div>
+                    <div class="slider-container">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <div class="pricing">$16.00<span>/month</span>
+                        </div>
+                    </div>
+                    <div class="toggle-comtainer">
+                        <p>Monthly Billing</p>
+                        <label class="toggle-switch">
+                            <input type="checkbox">
+                            <span class="round toggler"></span>
+                        </label>
+                        <p>Yearly Billing</p>
+                        <span class="desktopview">25% discount</span>
+                        <span class="mobile">25%</span>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="details-wrapper">
+                        <ol>
+                            <li>Unlimited websites</li>
+                            <li>100% data ownership</li>
+                            <li>Email reports</li>
+                        </ol>
+                        <a href="">Start my trial</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+  var slider = document.getElementById("myRange");
+  slider.oninput = function() {
+    this.style.background = 'linear-gradient(to right, #a2f2ea ' + this.value + '%, #e8f1fa ' + (100-this.value) + '%)';
+  }
+</script>
+    </body>     
 </html>

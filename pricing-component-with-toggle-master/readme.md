@@ -13,7 +13,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Time tracking dashboard](https://iamupo.github.io/FrontendMentor-Solutions/pricing-component-with-toggle-master/)
+You can view the live version of this project on GitHub Pages: [Pricing component with toggle](https://iamupo.github.io/FrontendMentor-Solutions/pricing-component-with-toggle-master/)
 
 ## View Code Repo
 

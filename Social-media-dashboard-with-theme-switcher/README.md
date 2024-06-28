@@ -15,15 +15,15 @@ https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switc
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Social media dashboard](https://iamupo.github.io/FrontendMentor-Solutions/Social-media-dashboard-with-theme-switcher/)
+You can view the live version of this project on GitHub Pages: [Social media dashboard](https://upovibe.github.io/FrontendMentor-Solutions/Social-media-dashboard-with-theme-switcher/)
 
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/Social-media-dashboard-with-theme-switcher/)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/Social-media-dashboard-with-theme-switcher/)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

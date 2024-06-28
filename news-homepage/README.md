@@ -12,14 +12,14 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [news-homepage](https://iamupo.github.io/FrontendMentor-Solutions/news-homepage/)
+You can view the live version of this project on GitHub Pages: [news-homepage](https://upovibe.github.io/FrontendMentor-Solutions/news-homepage/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/news-homepage/)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/news-homepage/)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

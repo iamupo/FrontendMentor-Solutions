@@ -14,15 +14,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Profile-card-componentp](https://iamupo.github.io/FrontendMentor-Solutions/Profile-card-component/)
+You can view the live version of this project on GitHub Pages: [Profile-card-componentp](https://upovibe.github.io/FrontendMentor-Solutions/Profile-card-component/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/blob/main/Profile-card-component)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/blob/main/Profile-card-component)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

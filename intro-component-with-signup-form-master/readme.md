@@ -14,14 +14,14 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Intro component with sign up form](https://iamupo.github.io/FrontendMentor-Solutions/intro-component-with-signup-form-master)
+You can view the live version of this project on GitHub Pages: [Intro component with sign up form](https://You can view the live version of this project on GitHub Pages: [Interactive rating component](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/interactive-rating-component)).github.io/FrontendMentor-Solutions/intro-component-with-signup-form-master)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/intro-component-with-signup-form-master)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/intro-component-with-signup-form-master)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

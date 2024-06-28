@@ -12,15 +12,15 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ![Screenshot](media/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Time tracking dashboard](https://iamupo.github.io/FrontendMentor-Solutions/time-tracking-dashboard-main/)
+You can view the live version of this project on GitHub Pages: [Time tracking dashboard](https://upovibe.github.io/FrontendMentor-Solutions/time-tracking-dashboard-main/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/time-tracking-dashboard-main)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/time-tracking-dashboard-main)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

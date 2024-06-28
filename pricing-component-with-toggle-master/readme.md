@@ -13,15 +13,15 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Pricing component with toggle](https://iamupo.github.io/FrontendMentor-Solutions/pricing-component-with-toggle-master/)
+You can view the live version of this project on GitHub Pages: [Pricing component with toggle](https://upovibe.github.io/FrontendMentor-Solutions/pricing-component-with-toggle-master/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/pricing-component-with-toggle-master)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/pricing-component-with-toggle-master)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

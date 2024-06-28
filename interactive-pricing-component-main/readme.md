@@ -13,15 +13,15 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ![Screenshot](img/screenshot.jpg)
 
-You can view the live version of this project on GitHub Pages: [Interactive pricing component](https://iamupo.github.io/FrontendMentor-Solutions/interactive-pricing-component-main/)
+You can view the live version of this project on GitHub Pages: [Interactive pricing component](https://upovibe.github.io/FrontendMentor-Solutions/interactive-pricing-component-main/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/interactive-pricing-component-main)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/interactive-pricing-component-main)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

@@ -10,14 +10,14 @@ Not fully responsive at the moment, will work on it as usaul.
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Interactive-card-details-form](https://iamupo.github.io/FrontendMentor-Solutions/Interactive-card-details-form/)
+You can view the live version of this project on GitHub Pages: [Interactive-card-details-form](https://upovibe.github.io/FrontendMentor-Solutions/Interactive-card-details-form/)
 
 ## View Code Repo
-[Code Repo](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/Interactive-card-details-form)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/Interactive-card-details-form)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

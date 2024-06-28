@@ -18,4 +18,4 @@ You can view the live version of this project on GitHub Pages: [Easybank Landing
 Feel free to connect with me on:
 
 - [LinkedIn](https://www.linkedin.com/in/upovibe/)
-- [x](https://www.x.com/iamupo/)
+- [x](https://www.x.com/upovibe/)

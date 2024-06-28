@@ -14,14 +14,14 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Faq-accordion](https://iamupo.github.io/FrontendMentor-Solutions/faq-accordion-main/)
+You can view the live version of this project on GitHub Pages: [Faq-accordion](https://upovibe.github.io/FrontendMentor-Solutions/faq-accordion-main/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/faq-accordion-main/)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/faq-accordion-main/)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

@@ -15,7 +15,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ![Screenshot](img/screenshot.png)
 
-You can view the live version of this project on GitHub Pages: [Order-summary-card](https://iamupo.github.io/FrontendMentor-Solutions/testimonials-grid-section/)
+You can view the live version of this project on GitHub Pages: [Order-summary-card](https://upovibe.github.io/FrontendMentor-Solutions/testimonials-grid-section/)
 
 ## View Code Repo
 
@@ -25,5 +25,5 @@ You can view the live version of this project on GitHub Pages: [Order-summary-ca
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

@@ -8,14 +8,14 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Tracking-intro-component](https://iamupo.github.io/FrontendMentor-Solutions/tracking-intro-component/)
+You can view the live version of this project on GitHub Pages: [Tracking-intro-component](https://upovibe.github.io/FrontendMentor-Solutions/tracking-intro-component/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/tracking-intro-component/)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/tracking-intro-component/)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

@@ -14,14 +14,14 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Age Calculator](https://iamupo.github.io/FrontendMentor-Solutions/age-calculator/)
+You can view the live version of this project on GitHub Pages: [Age Calculator](https://upovibe.github.io/FrontendMentor-Solutions/age-calculator/)
 
 ## View Code Repo
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/age-calculator)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/age-calculator)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

@@ -14,15 +14,15 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Fylo data storage component](https://iamupo.github.io/FrontendMentor-Solutions/fylo-data-storage-component/)
+You can view the live version of this project on GitHub Pages: [Fylo data storage component](https://upovibe.github.io/FrontendMentor-Solutions/fylo-data-storage-component/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/fylo-data-storage-component/)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/fylo-data-storage-component/)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

@@ -14,15 +14,15 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Article preview component](https://iamupo.github.io/FrontendMentor-Solutions/article-preview-component-master/)
+You can view the live version of this project on GitHub Pages: [Article preview component](https://upovibe.github.io/FrontendMentor-Solutions/article-preview-component-master/)
 
 ## View Code Repo
 
-[Code Repo](https://github.com/IamUPO/FrontendMentor-Solutions/tree/main/article-preview-component-master)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/article-preview-component-master)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)

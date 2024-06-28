@@ -13,7 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [3-column preview card component](https://iamupo.github.io/FrontendMentor-Solutions/3-column-preview-card-component/)
+You can view the live version of this project on GitHub Pages: [3-column preview card component](https://upovibe.github.io/FrontendMentor-Solutions/3-column-preview-card-component/)
 
 ## View Code Repo
 
@@ -23,6 +23,6 @@ You can view the live version of this project on GitHub Pages: [3-column preview
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
 - [x](https://www.x.com/iamupo/)
 

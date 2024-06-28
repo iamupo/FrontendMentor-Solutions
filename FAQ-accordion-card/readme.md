@@ -13,14 +13,14 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [FAQ accordion card challenge on Frontend Mentor](https://iamupo.github.io/FrontendMentor-Solutions/FAQ-accordion-card)
+You can view the live version of this project on GitHub Pages: [FAQ accordion card challenge on Frontend Mentor](https://upovibe.github.io/FrontendMentor-Solutions/FAQ-accordion-card)
 
 ## View Code Repo
-[Code Repo](https://github.com/iamupo/FrontendMentor-Solutions/tree/main/FAQ-accordion-card)
+[Code Repo](https://github.com/upovibe/FrontendMentor-Solutions/tree/main/FAQ-accordion-card)
 
 ## Connect with Me
 
 Feel free to connect with me on:
 
-- [LinkedIn](https://www.linkedin.com/in/iamupo/)
-- [x](https://www.x.com/iamupo/)
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)
